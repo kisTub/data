@@ -1,0 +1,57 @@
+{
+	"criteria": {
+		"from_the_nether_to_overworld": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "the_nether",
+				"to": "overworld"
+				}
+			},
+		"from_the_nether_to_the_end": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "the_nether",
+				"to": "the_end"
+				}
+			},
+		"from_overworld_to_the_nether": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "overworld",
+				"to": "the_nether"
+				}
+			},
+		"from_overworld_to_the_end": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "overworld",
+				"to": "the_end"
+				}
+			},
+		"from_the_end_to_overworld": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "the_end",
+				"to": "overworld"
+				}
+			},
+		"from_the_end_to_the_nether": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "the_end",
+				"to": "the_nether"
+				}
+			}
+		},
+		"rewards": {
+			"function":"adv:ins/round_trip_dimension"
+	},
+	"requirements": [[
+		"from_the_nether_to_overworld",
+		"from_the_nether_to_the_end",
+		"from_overworld_to_the_nether",
+		"from_overworld_to_the_end",
+		"from_the_end_to_overworld",
+		"from_the_end_to_the_nether"
+	]]
+}

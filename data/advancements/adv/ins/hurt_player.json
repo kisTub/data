@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "hurt_players": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "player"
+        }
+      }
+    }
+  },
+	"rewards": {
+		"function":"adv:ins/hurt_players"
+  }
+}

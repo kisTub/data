@@ -1,0 +1,31 @@
+{
+  "parent":"adv:daily/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": {
+      "text": "基石"
+    },
+    "description": {
+      "text": "*获得一组圆石"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone",
+			"count": 64
+          }
+        ]
+      }
+    }
+  }
+}

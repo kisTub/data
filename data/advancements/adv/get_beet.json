@@ -1,0 +1,40 @@
+{
+  "parent": "adv:daily/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:beef"
+    },
+    "title": {
+      "text": "牛肉旅行"
+    },
+    "description": {
+      "text": "*上交一组牛肉和一组牛排"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_beef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:beef",
+			"count": 64
+          },
+		  {
+            "item": "minecraft:cooked_beef",
+			"count": 64
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_beef"
+    ]
+  ]
+}

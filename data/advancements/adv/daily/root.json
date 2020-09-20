@@ -1,0 +1,23 @@
+{
+  "parent":"adv:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "text": "每日任务"
+    },
+    "description": {
+      "text": "完成全部子进度后点亮该进度"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
