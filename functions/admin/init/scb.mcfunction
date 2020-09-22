@@ -26,5 +26,6 @@ scoreboard objectives add hurtPlayerCount dummy
 scoreboard objectives add 惩罚次数 dummy
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add sign dummy
-
+scoreboard objectives add cs trigger
+scoreboard objectives add tr trigger
 
