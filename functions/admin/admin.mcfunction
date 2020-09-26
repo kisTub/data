@@ -14,7 +14,7 @@ execute @a[score_ch_min=1] ~ ~ ~ function admin:interface/prefix
 execute @a[score_ely_min=1,score_ely=2] ~ ~ ~ function admin:fly
 #死亡设置记录点
 function back:main
-#惩罚
+#惩罚（暂停，考虑做成牢笼室）
 execute @a[tag=惩罚] ~ ~ ~ function admin:interface/punish
 #每日签到
 execute @a[score_sign_min=1] ~ ~ ~ function admin:sign
