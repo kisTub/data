@@ -54,6 +54,9 @@ tellraw @s[tag=051] [{"text":"                 §1[蓝工会]§r","clickEvent":{
 tellraw @s[tag=052] [{"text":"                 §3[歪比巴卜]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 052"}}]
 tellraw @s[tag=053] [{"text":"                 §b[逮虾户]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 053"}}]
 tellraw @s[tag=054] [{"text":"                 §c[全服最帅]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 054"}}]
+tellraw @s[tag=055] [{"text":"                 §6[幻想乡]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 055"}}]
+tellraw @s[tag=056] [{"text":"                 §6[幻想乡主]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 056"}}]
+tellraw @s[tag=057] [{"text":"                 §f[圣诞老人]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 057"}}]
 
 tellraw @s [{"text":"                 §a§n§l点此回复默认称号§r","clickEvent":{"action":"run_command","value":"/trigger ch set 100"}}]
 tellraw @s [{"text":"§3█▇▆▅▄▃▂▁\u00a7d❤§a\u00a7l称号\u00a7b❀\u00a7a\u00a7l仓库\u00a7d❤§3▁▂▃▄▅▆▇█"}]
