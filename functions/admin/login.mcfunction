@@ -11,7 +11,7 @@ execute @e[type=player,tag=入服,score_入服_min=10,score_入服=10] ~ ~ ~ fun
 #结束循环
 #scorebo players add @e[type=player,tag=入服,score_入服_min=20,score_入服=20] 入服 10
 scoreboard players add @s[tag=入服,score_入服_min=10,score_入服=10] 入服 10
-kill @e[type=player,tag=!入服,score_入服=20,score_入服_min=20]
+give @e[type=player,tag=!入服,score_入服=20,score_入服_min=20] minecraft:banner 1 15 {BlockEntityTag:{Base:15,Patterns:[{Pattern:sb,Color:0}]}}
 
 
 
