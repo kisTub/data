@@ -7,7 +7,7 @@ function admin:interface/loginText
 #初始登录礼物
 function admin:interface/loginGift
 #玩家uid设置
-function admin:interface/setUid
+execute @s[tag=!uid] ~ ~ ~ function admin:interface/setUid
 #短uid玩家奖励
 execute @s[score_uid_min=1,score_uid=100] ~ ~ ~ function admin:interface/loginUidGift
 #命令方块接口
