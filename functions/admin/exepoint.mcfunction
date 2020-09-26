@@ -23,6 +23,11 @@ execute @s[score_temp=0,score_temp_min=0,tag=!-clearMob] ~ ~ ~ function admin:in
 scoreboard players remove $sidebarShowTime var 1
 scoreboard players operation @s temp = $sidebarShowTime var
 execute @s[score_temp=0,score_temp_min=0] ~ ~ ~ function admin:interface/sidebarShowTime
+#彩票
+scoreboard players remove $lotteryTicketTime var 1
+scoreboard players operation @s temp = $lotteryTicketTime var
+execute @s[score_temp=0,score_temp_min=0] ~ ~ ~ function admin:interface/lottery/ticket/ticket
+
 
 #是否开启登录检测
 #设置禁止非管理员玩家登录

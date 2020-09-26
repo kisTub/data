@@ -7,7 +7,7 @@
       "text": "任务"
     },
     "description": {
-      "text": "任务 *号任务会在完成后清理相应物品"
+      "text": "任务 带'*'任务会在完成后清理相应物品"
     },
     "frame": "goal",
     "show_toast": true,
@@ -22,7 +22,7 @@
         "items": [
           {
             "item": "minecraft:carrot_on_a_stick",
-			"nbt": "{openMenu:1b}"
+			      "nbt": "{openMenu:1b}"
           }
         ]
       }

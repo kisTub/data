@@ -5,7 +5,7 @@ function admin:interface/enableTrigger
 #玩家游戏时间
 execute @a[tag=!unshow] ~ ~ ~ function admin:interface/playerTime
 #登录
-function admin:login
+execute @a ~ ~ ~ function admin:login
 #服务器菜单
 function admin:interface/menu/openMenu
 #称号
@@ -17,7 +17,7 @@ function back:main
 #惩罚
 execute @e[tag=punishArea] ~ ~ ~ execute @a[tag=惩罚,r=8] ~ ~ ~ function admin:interface/punish/punishArea
 #每日签到
-execute @a[score_sign_min=1] ~ ~ ~ function admin:sign
+#execute @a[score_sign_min=1] ~ ~ ~ function admin:sign
 #ban
 execute @a ~ ~ ~ function admin:interface/ban/ban
 #传送

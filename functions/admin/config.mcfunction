@@ -6,6 +6,14 @@ scoreboard players set *clearTime var 12000
 scoreboard players set *clearTime-ani var 12000
 #激活公告显示的间隔时间
 scoreboard players set *sidebarShowTime var 6000
+#彩票随机数最小值
+scoreboard players set #lotteryTicketNum random_min 1
+#彩票随机数最大值
+scoreboard players set #lotteryTicketNum random_max 10000
+#彩票开奖间隔时间
+scoreboard players set #lotteryTicketTime var 1220
+#彩票算子
+scoreboard players set #lotteryTicketOper var 100
 
 #显示uid于在线玩家列表
 scoreboard objectives setdisplay list uid

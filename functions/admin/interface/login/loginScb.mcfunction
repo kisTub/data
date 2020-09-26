@@ -5,3 +5,6 @@ scoreboard players add @s min 0
 scoreboard players add @s hour 0
 scoreboard players add @s day 0
 scoreboard players set @s ch 100
+scoreboard players add @s leaveGame 0
+
+scoreboard teams leave

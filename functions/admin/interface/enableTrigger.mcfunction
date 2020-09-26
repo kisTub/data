@@ -8,3 +8,4 @@ scoreboard players enable @a 高级商品
 scoreboard players enable @a cd
 scoreboard players enable @a 称号
 scoreboard players enable @a 圈地
+scoreboard players enable @a tr
