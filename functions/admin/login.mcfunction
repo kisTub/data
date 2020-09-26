@@ -1,17 +1,45 @@
-#函数接口-登录前置(跳过)
-#execute @a[tag=!入服] ~ ~ ~ function admin:login/check_player
+#主城
+execute @e[c=1,type=armor_stand,tag=app] ~ ~ ~ function admin:interface/app
+#触发器启用
+function admin:interface/enableTrigger
+#玩家游戏时间
+execute @a[tag=!unshow] ~ ~ ~ function admin:interface/playerTime
+#登录
+function admin:login
+#服务器菜单
+function admin:interface/openMenu
+#称号
+execute @a[score_ch_min=1] ~ ~ ~ function admin:interface/prefix
+#飞行
+execute @a[score_ely_min=1,score_ely=2] ~ ~ ~ function admin:fly
+#死亡设置记录点
+function back:main
+#惩罚（暂停，考虑做成牢笼室）
+execute @a[tag=惩罚] ~ ~ ~ function admin:interface/punish
+#每日签到
+execute @a[score_sign_min=1] ~ ~ ~ function admin:sign
+#ban
+execute @a ~ ~ ~ function admin:interface/ban
+#操作点
+execute @e[type=area_effect_cloud,tag=exePoint,c=1] ~ ~ ~ function admin:exepoint
 
-scoreboard players add @s[tag=!入服] 入服 0
-scoreboard players tag @s[score_入服=0] add 入服
-scoreboard players add @s[tag=入服,score_入服=0] 入服 10
 
-#登录接口
-execute @e[type=player,tag=入服,score_入服_min=10,score_入服=10] ~ ~ ~ function admin:interface/login unless @e[tag=-loginDisable,type=area_effect_cloud]
 
-#结束循环
-#scorebo players add @e[type=player,tag=入服,score_入服_min=20,score_入服=20] 入服 10
-scoreboard players add @s[tag=入服,score_入服_min=10,score_入服=10] 入服 10
-give @e[type=player,tag=!入服,score_入服=20,score_入服_min=20] minecraft:banner 1 15 {BlockEntityTag:{Base:15,Patterns:[{Pattern:sb,Color:0}]}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
