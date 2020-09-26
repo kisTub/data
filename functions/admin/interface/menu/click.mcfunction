@@ -1,5 +1,6 @@
-execute @s ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=!redstone] add redstone
-
+execute @s[score_book_min=1] ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=!redstone] add redstone
+execute @s[score_book_min=1] ~ ~ ~ execute @p[r=20] ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=redstone] remove redstone
+kill @e[tag=redstone]
 #函数接口-使用菜单
 #function admin:menu/use
 
@@ -24,7 +25,5 @@ execute @s[score_book_min=18,score_book=18] ~ ~ ~ function admin:interface/menu/
 execute @s[score_book_min=19,score_book=19] ~ ~ ~ function admin:interface/menu/b19
 execute @s[score_book_min=20,score_book=20] ~ ~ ~ function admin:interface/menu/b20
 execute @s[score_book_min=21,score_book=21] ~ ~ ~ function admin:interface/menu/b21
-
-execute @s ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=redstone] remove redstone
 
 scoreboard players set @s book 0
