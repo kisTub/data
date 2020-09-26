@@ -4,7 +4,7 @@ scoreboard players tag @a[rm=260,tag=主城] remove 主城
 #主城活动栏
 execute @e[type=player,r=500,tag=!unshow] ~ ~ ~ function admin:interface/appActionbar
 #主城保护*
-execute @e[type=player,x=260,y=12,z=-111,dx=126,dy=200,dz=154] ~ ~ ~ function admin:interface/appProtection
+execute @e[type=player,x=260,y=1,z=-111,dx=126,dy=200,dz=154] ~ ~ ~ function admin:interface/appProtection
 #主城违禁物
 execute @e[type=player,r=500,tag=!op] ~ ~ ~ function admin:interface/appBanItem
 #城内保护
