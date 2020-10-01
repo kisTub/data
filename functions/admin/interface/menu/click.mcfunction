@@ -45,5 +45,4 @@ execute @s[score_book_min=19,score_book=19] ~ ~ ~ function admin:interface/menu/
 #自杀
 execute @s[score_book_min=20,score_book=20] ~ ~ ~ function admin:interface/menu/b20
 
-
 scoreboard players set @s book 0
