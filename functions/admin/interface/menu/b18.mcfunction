@@ -1,3 +1,3 @@
-tp @a[score_book_min=16,score_book=16] @e[tag=保险仓库]
-title @a[score_book_min=16,score_book=16] title [{"text":"\u00a7b✈\u00a76加群即可获得免费保险箱"}]
-title @a[score_book_min=16,score_book=16] subtitle [{"text":"\u00a7a需要联系管理员"}]
+tp @s @e[tag=挂机许愿]
+title @s title [{"text":"\u00a7d✿\u00a7a一花只为一树开\u00a7d✿"}]
+title @s subtitle [{"text":"\u00a7b♬\u00a7d一颦一笑一知己\u00a7b♬"}]

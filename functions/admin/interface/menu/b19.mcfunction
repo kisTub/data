@@ -1,3 +1,4 @@
-tp @s @e[tag=副本塔楼]
-title @s title [{"text":"\u00a7c☣\u00a76强大的副本怪兽\u00a7c☣"}]
-title @s subtitle [{"text":"\u00a7a需要大量金钱和人力去攻打"}]
+#书本每日签到
+scoreboard players add @s sign 0
+execute @s[score_sign_min=1,score_sign=1] ~ ~ ~ function admin:interface/sign/signed
+execute @s[score_sign_min=0,score_sign=0] ~ ~ ~ function admin:interface/sign/sign

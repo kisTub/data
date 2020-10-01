@@ -53,4 +53,7 @@ scoreboard teams join 蓝公会 @s[tag=051,score_ch_min=051,score_ch=051]
 scoreboard teams join 歪比巴卜 @s[tag=052,score_ch_min=052,score_ch=052]
 scoreboard teams join 逮虾户 @s[tag=053,score_ch_min=053,score_ch=053]
 scoreboard teams join 全服最帅 @s[tag=054,score_ch_min=054,score_ch=054]
-
+scoreboard teams join 幻想乡 @s[tag=055,score_ch_min=055,score_ch=055]
+scoreboard teams join 幻想乡主 @s[tag=056,score_ch_min=056,score_ch=056]
+scoreboard teams join 圣诞老人 @s[tag=057,score_ch_min=057,score_ch=057]
+scoreboard players set @s ch 0

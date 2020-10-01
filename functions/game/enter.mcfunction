@@ -1,3 +1,4 @@
-tp @s @e[tag=游戏中心]
-title @s title [{"text":"\u00a7c游戏园主大厅\u00a7c❤"}]
-title @s subtitle [{"text":"\u00a7b游戏嘉年华 第一期\u00a7b"}]
+scoreboard players tag @s add enterGameHub {Inventory:[]}
+execute @s[tag=enterGameHub] ~ ~ ~ function game:enter/ray
+execute @s[tag=!enterGameHub] ~ ~ ~ function game:enter/reject
+
