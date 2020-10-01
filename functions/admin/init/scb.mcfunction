@@ -55,7 +55,6 @@ scoreboard objectives add random_max dummy
 scoreboard objectives add random dummy
 #彩票
 scoreboard objectives add 彩票号码 trigger
- scoreboard players set #100 var 100
 
 
 scoreboard objectives setdisplay list uid
