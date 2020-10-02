@@ -66,3 +66,5 @@ scoreboard teams option loginInit deathMessageVisibility never
 scoreboard teams option loginInit friendlyfire false
 scoreboard teams option loginInit nametagVisibility hideForOtherTeams
 scoreboard teams option loginInit seeFriendlyInvisibles false
+
+scoreboard players set *tpaWaitTime var 200

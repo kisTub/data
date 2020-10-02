@@ -56,4 +56,9 @@ scoreboard teams join 全服最帅 @s[tag=054,score_ch_min=054,score_ch=054]
 scoreboard teams join 幻想乡 @s[tag=055,score_ch_min=055,score_ch=055]
 scoreboard teams join 幻想乡主 @s[tag=056,score_ch_min=056,score_ch=056]
 scoreboard teams join 圣诞老人 @s[tag=057,score_ch_min=057,score_ch=057]
+scoreboard teams join 东邪西毒 @s[tag=058,score_ch_min=058,score_ch=058]
+scoreboard teams join 南帝北丐 @s[tag=059,score_ch_min=059,score_ch=059]
+scoreboard teams join 中神通 @s[tag=060,score_ch_min=060,score_ch=060]
+
+
 scoreboard players set @s ch 0
