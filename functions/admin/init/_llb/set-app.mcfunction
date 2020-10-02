@@ -1,1 +1,0 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["app"],Marker:1b,Invisible:1b,NoGravity:1b}
