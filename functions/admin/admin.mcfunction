@@ -9,7 +9,7 @@ execute @a ~ ~ ~ function admin:login
 #服务器菜单
 function admin:interface/menu/openMenu
 #称号
-execute @a[score_ch_min=1] ~ ~ ~ function admin:interface/prefix/prefix
+execute @a[score_ch_min=-1] ~ ~ ~ function admin:interface/prefix/prefix
 #飞行
 execute @a[score_ely_min=1,score_ely=2] ~ ~ ~ function admin:fly
 #死亡设置记录点
