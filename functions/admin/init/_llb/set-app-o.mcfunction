@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"每个服务器有且只能有一个app","color":"yellow"}]
