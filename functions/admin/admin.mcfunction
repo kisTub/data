@@ -1,7 +1,7 @@
 #主城
 execute @e[c=1,type=armor_stand,tag=app] ~ ~ ~ function admin:interface/app/app
 #触发器启用
-function admin:interface/enableTrigger
+function admin:interface/enableTrigger/ter
 #玩家游戏时间
 execute @a[tag=!unshow] ~ ~ ~ function admin:interface/playerTime
 #登录
