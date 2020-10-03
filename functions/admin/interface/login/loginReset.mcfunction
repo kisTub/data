@@ -14,6 +14,7 @@ scoreboard players tag @s remove 入服
 scoreboard players tag @s remove uid
 
 scoreboard teams leave
+scoreboard players tag @s remove -appActionbar
 effect @s clear
 
 advancement revoke @s through adv:root

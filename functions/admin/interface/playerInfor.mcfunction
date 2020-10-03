@@ -2,6 +2,4 @@ tellraw @p ["",{"text":"> 玩家 ","color":"green"},{"selector":"@s","color":"go
 tellraw @s[tag=vip] ["",{"text":"  用户组 "},{"text":"VIP会员","color":"yellow"}]
 tellraw @s[tag=op] ["",{"text":"  用户组 "},{"text":"管理员","color":"light_purple"}]
 execute @s[tag=!vip] ~ ~ ~ tellraw @s[tag=!op] ["",{"text":"  用户组 "},{"text":"普通用户 ","color":"graye"}]
-tellraw @s ["",{"text":"  花粉 "},{"score":{"objective":"花粉","name":"@s"},"color":"green"},{"text":" 蓝晶 ","color":""},{"score":{"objective":"蓝晶","name":"@s"},"color":"green"},{"text":" 击杀实体数 "},{"score":{"objective":"击杀","name":"@s"},"color":"green"}]
-
-
+tellraw @s ["",{"text":"  花粉 "},{"score":{"objective":"花粉","name":"@s"},"color":"green"},{"text":" 蓝晶 ","color":""},{"score":{"objective":"蓝晶","name":"@s"},"color":"green"},{"text":" 击杀实体数 "},{"score":{"objective":"击杀","name":"@s"},"color":"green"},{"text":" 往返异界次数 "},{"score":{"objective":"异界分数","name":"@s"},"color":"green"}]

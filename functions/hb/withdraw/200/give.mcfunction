@@ -1,3 +1,4 @@
+scoreboard players operation @s temp = @s tr
 give @s[score_temp_min=64,score_temp=64] minecraft:dye 64 12 {display:{Name:"§e200花粉",Lore:["§6〓〓〓〓〓〓","§b面值200","§e有一点钱",""]},ench:[{id:34s,lvl:10s}]}
 scoreboard players remove @s[score_temp_min=64,score_temp=64] temp 64
 

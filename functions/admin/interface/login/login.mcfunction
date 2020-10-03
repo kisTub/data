@@ -14,6 +14,8 @@ function admin:interface/setUid
 execute @s[score_uid_min=1,score_uid=100] ~ ~ ~ function admin:interface/login/loginUidGift
 #清除状态效果
 effect @s clear
+#设置活动栏显示
+scoreboard players tag @s remove -appActionbar
 #命令方块接口
 execute @e[type=area_effect_cloud,x=0,y=1,z=0,tag=exePoint] ~ ~ ~ execute @e[type=area_effect_cloud,r=64,tag=incfLogin] ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
 

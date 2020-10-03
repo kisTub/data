@@ -44,6 +44,8 @@ execute @s[score_book_min=18,score_book=18] ~ ~ ~ function admin:interface/menu/
 execute @s[score_book_min=19,score_book=19] ~ ~ ~ function admin:interface/menu/b19
 #自杀
 execute @s[score_book_min=20,score_book=20] ~ ~ ~ function admin:interface/menu/b20
+#查看玩家信息
+execute @s[score_book_min=21,score_book=21] ~ ~ ~ function admin:interface/menu/b21
 
 
 scoreboard players set @s book 0
