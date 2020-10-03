@@ -55,7 +55,12 @@ scoreboard objectives add random_max dummy
 scoreboard objectives add random dummy
 #彩票
 scoreboard objectives add 彩票号码 trigger
-
+#飞行
+scoreboard objectives add sneak stat.sneakTime
+#时间计算
+scoreboard objectives add min dummy
+scoreboard objectives add hour dummy
+scoreboard objectives add day dummy
 
 scoreboard objectives setdisplay list uid
 scoreboard objectives setdisplay belowName 血量
@@ -67,4 +72,7 @@ scoreboard teams option loginInit friendlyfire false
 scoreboard teams option loginInit nametagVisibility hideForOtherTeams
 scoreboard teams option loginInit seeFriendlyInvisibles false
 
+#传送等待时间
 scoreboard players set *tpaWaitTime var 200
+#挂机刷新时间
+scoreboard players set *afkPoolTime var 1200

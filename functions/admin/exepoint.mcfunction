@@ -10,7 +10,7 @@ scoreboard players operation @s temp = $resetDimensionScore var
 execute @s[score_temp=0,score_temp_min=0] ~ ~ ~ function admin:interface/resetDimensionScore
 #清理动物
 #execute @s[tag=!-clearAnimal]
-function admin:exepoint/clearAnimal
+#function admin:exepoint/clearAnimal
 scoreboard players remove $clearTime-ani var 1
 scoreboard players operation @s temp = $clearTime-ani var
 execute @s[score_temp=0,score_temp_min=0,tag=!-clearAnimal] ~ ~ ~ function admin:interface/clearAnimal

@@ -13,15 +13,16 @@ execute @a[score_ch_min=-1] ~ ~ ~ function admin:interface/prefix/prefix
 #飞行
 execute @a[score_ely_min=1,score_ely=2] ~ ~ ~ function admin:fly
 #死亡设置记录点
-function back:main
+execute @a[score_deathCount_min=1] ~ ~ ~ function back:main
 #惩罚
 execute @e[tag=punishArea] ~ ~ ~ execute @a[tag=惩罚,r=8] ~ ~ ~ function admin:interface/punish/punishArea
-#每日签到
-#execute @a[score_sign_min=1] ~ ~ ~ function admin:sign
+#每日签到(需要命令方块模块)
 #ban
 execute @a ~ ~ ~ function admin:interface/ban/ban
 #传送
 execute @a[score_cs_min=1] ~ ~ ~ function admin:interface/tpa/tpa
+#挂机池
+execute @e[tag=挂机许愿] ~ ~ ~ function admin:interface/afk/pool if @a[r=32]
 #操作点
 execute @e[type=area_effect_cloud,tag=exePoint,c=1] ~ ~ ~ function admin:exepoint
 
