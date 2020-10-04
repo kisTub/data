@@ -18,6 +18,9 @@ tp @e[type=witch,tag=!保护,r=200] ~ -50 ~
 tp @e[type=zombie_villager,tag=!保护,r=200] ~ -50 ~
 #清理tnt
 kill @e[type=tnt]
+#登录指导
+execute @a[tag=ifLoginLead,r=128] ~ ~ ~ function admin:interface/app/ifLoginLead
+
 
 #竞技场
 execute @e[tag=竞技场] ~ ~ ~ scoreboard players tag @a[r=150,tag=!竞技场] add 竞技场

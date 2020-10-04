@@ -13,6 +13,7 @@ execute @s[score_temp=0,score_temp_min=0] ~ ~ ~ function admin:interface/resetDi
 #function admin:exepoint/clearAnimal
 scoreboard players remove $clearTime-ani var 1
 scoreboard players operation @s temp = $clearTime-ani var
+execute @s[score_temp=200,score_temp_min=20,tag=!-clearAnimal] ~ ~ ~ function admin:interface/clearTimeSide
 execute @s[score_temp=0,score_temp_min=0,tag=!-clearAnimal] ~ ~ ~ function admin:interface/clearAnimal
 #清理间隔
 #execute @s[tag=!-clearMob]

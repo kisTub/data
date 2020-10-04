@@ -22,7 +22,7 @@ execute @a ~ ~ ~ function admin:interface/ban/ban
 #传送
 execute @a[score_cs_min=1] ~ ~ ~ function admin:interface/tpa/tpa
 #挂机池
-execute @e[tag=挂机许愿] ~ ~ ~ function admin:interface/afk/pool if @a[r=32]
+execute @e[tag=afkPool] ~ ~ ~ function admin:interface/afk/pool if @a[r=32]
 #操作点
 execute @e[type=area_effect_cloud,tag=exePoint,c=1] ~ ~ ~ function admin:exepoint
 

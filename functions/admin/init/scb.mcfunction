@@ -61,11 +61,8 @@ scoreboard objectives add sneak stat.sneakTime
 scoreboard objectives add min dummy
 scoreboard objectives add hour dummy
 scoreboard objectives add day dummy
-#公告
-scoreboard players set _________服务器公告_________ 公告 1
-scoreboard players set 当前服务器正在进行内测中 公告 1
-scoreboard players set 感谢您的参与和支持 公告 1
-
+#登录指导
+scoreboard objectives add loginLead dummy
 
 scoreboard objectives setdisplay list uid
 scoreboard objectives setdisplay belowName 血量
@@ -85,3 +82,8 @@ scoreboard players set *afkPoolTime var 1200
 scoreboard players set #1000 var 1000
 scoreboard players set #200 var 200
 scoreboard players set #20 var 20
+#公告
+scoreboard players set _________服务器公告_________ 公告 1
+scoreboard players set 当前服务器正在进行内测中 公告 1
+scoreboard players set 感谢您的参与和支持 公告 1
+

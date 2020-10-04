@@ -61,6 +61,6 @@ tellraw @s[tag=058] [{"text":"                 §a[东邪西毒]§r","clickEvent
 tellraw @s[tag=059] [{"text":"                 §6[南帝北丐]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 059"}}]
 tellraw @s[tag=060] [{"text":"                 §e[中神通]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 060"}}]
 
-tellraw @s [{"text":"                 §a§n§l点此回复默认称号§r","clickEvent":{"action":"run_command","value":"/trigger ch set 100"}}]
+tellraw @s [{"text":"                 §a§n§l点此恢复默认称号§r","clickEvent":{"action":"run_command","value":"/trigger ch set 100"}}]
 tellraw @s [{"text":"§3█▇▆▅▄▃▂▁\u00a7d❤§a\u00a7l称号\u00a7b❀\u00a7a\u00a7l仓库\u00a7d❤§3▁▂▃▄▅▆▇█"}]
 

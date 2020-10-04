@@ -2,7 +2,7 @@ execute @s[score_book_min=1] ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=
 execute @s[score_book_min=1] ~ ~ ~ execute @p[r=20] ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=redstone] remove redstone
 kill @e[tag=redstone]
 #函数接口-使用菜单
-#function admin:menu/use
+
 
 #返回主城
 execute @s[score_book_min=1,score_book=1] ~ ~ ~ function admin:interface/menu/b1
@@ -46,6 +46,10 @@ execute @s[score_book_min=19,score_book=19] ~ ~ ~ function admin:interface/menu/
 execute @s[score_book_min=20,score_book=20] ~ ~ ~ function admin:interface/menu/b20
 #查看玩家信息
 execute @s[score_book_min=21,score_book=21] ~ ~ ~ function admin:interface/menu/b21
+
+#新手引导
+execute @s[score_book_min=30,score_book=30] ~ ~ ~ function admin:interface/menu/b30
+
 
 
 scoreboard players set @s book 0

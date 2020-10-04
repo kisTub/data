@@ -1,0 +1,10 @@
+scoreboard players reset 扫地剩余时间-§e§l10 公告
+scoreboard players reset 扫地剩余时间-§e§l9 公告
+scoreboard players reset 扫地剩余时间-§e§l8 公告
+scoreboard players reset 扫地剩余时间-§e§l7 公告
+scoreboard players reset 扫地剩余时间-§e§l6 公告
+scoreboard players reset 扫地剩余时间-§e§l5 公告
+scoreboard players reset 扫地剩余时间-§e§l4 公告
+scoreboard players reset 扫地剩余时间-§e§l3 公告
+scoreboard players reset 扫地剩余时间-§e§l2 公告
+scoreboard players reset 扫地剩余时间-§e§l1 公告
