@@ -1,12 +1,11 @@
 #判断钱数和数量
-function hb:if_money
+function hb:deposit/200/get_count
+function hb:deposit/compare_count
 function hb:if_count
 #钱和数量均通过
-execute @s[tag=$hbMoneyTrue] ~ ~ ~ execute @s[tag=$hbCountTrue] ~ ~ ~ function hb:give200
-scoreboard players operation @s temp = @s tr
-scoreboard players operation @s temp *= #20 var
-scoreboard players operation @s 花粉 -= @s temp
+execute @s[tag=$hbCountCompare] ~ ~ ~ execute @s[tag=$hbCountTrue] ~ ~ ~ function hb:deposit/200/clear
+execute @s[tag=$hbCountCompare] ~ ~ ~ execute @s[tag=$hbCountTrue] ~ ~ ~ function hb:deposit/200/deposit
 
+scoreboard players tag @s remove $hbCountCompare
 scoreboard players tag @s remove $hbCountTrue
-scoreboard players tag @s remove $hbMoneyTrue
 scoreboard players reset @s tr 

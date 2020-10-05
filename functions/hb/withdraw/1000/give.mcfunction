@@ -1,3 +1,4 @@
+scoreboard players operation @s temp = @s tr
 give @s[score_temp_min=64,score_temp=64] minecraft:double_plant 64 0 {display:{Name:"§c1000花粉",Lore:["§6〓〓〓〓〓〓","§b面值1000","§c有钱",""]},ench:[{id:34s,lvl:10s}]}
 scoreboard players remove @s[score_temp_min=64,score_temp=64] temp 64
 

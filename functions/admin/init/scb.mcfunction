@@ -54,8 +54,15 @@ scoreboard objectives add random_min dummy
 scoreboard objectives add random_max dummy
 scoreboard objectives add random dummy
 #彩票
-scoreboard objectives add 彩票号码 trigger
-
+scoreboard objectives add 彩嘌号码 trigger
+#飞行
+scoreboard objectives add sneak stat.sneakTime
+#时间计算
+scoreboard objectives add min dummy
+scoreboard objectives add hour dummy
+scoreboard objectives add day dummy
+#登录指导
+scoreboard objectives add loginLead dummy
 
 scoreboard objectives setdisplay list uid
 scoreboard objectives setdisplay belowName 血量
@@ -67,4 +74,16 @@ scoreboard teams option loginInit friendlyfire false
 scoreboard teams option loginInit nametagVisibility hideForOtherTeams
 scoreboard teams option loginInit seeFriendlyInvisibles false
 
+#传送等待时间
 scoreboard players set *tpaWaitTime var 200
+#挂机刷新时间
+scoreboard players set *afkPoolTime var 1200
+#银行常量
+scoreboard players set #1000 var 1000
+scoreboard players set #200 var 200
+scoreboard players set #20 var 20
+#公告
+scoreboard players set _________服务器公告_________ 公告 1
+scoreboard players set 当前服务器正在进行内测中 公告 1
+scoreboard players set 感谢您的参与和支持 公告 1
+

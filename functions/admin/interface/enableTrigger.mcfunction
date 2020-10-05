@@ -1,5 +1,4 @@
 scoreboard players enable @a cs
-scoreboard players enable @a csqq
 scoreboard players enable @a book
 scoreboard players enable @a ch
 scoreboard players enable @a ely
@@ -9,3 +8,4 @@ scoreboard players enable @a cd
 scoreboard players enable @a 称号
 scoreboard players enable @a 圈地
 scoreboard players enable @a tr
+scoreboard players enable @a 彩嘌号码
