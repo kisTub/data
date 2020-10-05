@@ -1,3 +1,5 @@
+#常加载
+function admin:forceload
 #主城
 execute @e[c=1,type=area_effect_cloud,tag=app] ~ ~ ~ function admin:interface/app/app
 #触发器启用

@@ -13,7 +13,7 @@ function admin:interface/setUid
 #短uid玩家奖励
 execute @s[score_uid_min=1,score_uid=100] ~ ~ ~ function admin:interface/login/loginUidGift
 #玩家状态设置
-execute @s[score_uid_min=1,score_uid=100] ~ ~ ~ function admin:interface/login/loginStatus
+function admin:interface/login/loginStatus
 #命令方块接口
 execute @e[type=area_effect_cloud,x=0,y=1,z=0,tag=exePoint] ~ ~ ~ execute @e[type=area_effect_cloud,r=64,tag=incfLogin] ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
 
