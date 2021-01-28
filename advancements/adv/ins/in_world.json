@@ -1,0 +1,13 @@
+{
+   "criteria": {
+		"in_world": {
+			  "trigger": "minecraft:location",
+				  "conditions": {
+					"dimension": "overworld"
+				}
+			}
+		},
+		"rewards": {
+			"function":"exs:in_world"
+	}
+}

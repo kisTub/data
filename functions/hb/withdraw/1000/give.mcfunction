@@ -20,4 +20,4 @@ scoreboard players remove @s[score_temp_min=2] temp 2
 give @s[score_temp_min=1] minecraft:double_plant 1 0 {display:{Name:"§c1000花粉",Lore:["§6〓〓〓〓〓〓","§b面值1000","§c有钱",""]},ench:[{id:34s,lvl:10s}]}
 scoreboard players remove @s[score_temp_min=1] temp 1
 
-tellraw @s ["",{"text":"取款成功！"}]
+tellraw @s [{"text":"【服务器娘】","color":"gold"},{"text":"成功存款1000花粉","color":"green"}]

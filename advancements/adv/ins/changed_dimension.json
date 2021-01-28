@@ -44,7 +44,7 @@
 			}
 		},
 		"rewards": {
-			"function":"adv:ins/round_trip_dimension"
+			"function":"exs:dimension_travel"
 	},
 	"requirements": [[
 		"from_the_nether_to_overworld",

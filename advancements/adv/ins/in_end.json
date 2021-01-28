@@ -1,0 +1,13 @@
+{
+   "criteria": {
+		"in_end": {
+			  "trigger": "minecraft:location",
+				  "conditions": {
+					"dimension": "the_end"
+				}
+			}
+		},
+		"rewards": {
+			"function":"exs:in_end"
+	}
+}

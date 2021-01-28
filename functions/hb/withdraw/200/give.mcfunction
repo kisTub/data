@@ -20,4 +20,4 @@ scoreboard players remove @s[score_temp_min=2] temp 2
 give @s[score_temp_min=1] minecraft:dye 1 12 {display:{Name:"§e200花粉",Lore:["§6〓〓〓〓〓〓","§b面值200","§e有一点钱",""]},ench:[{id:34s,lvl:10s}]}
 scoreboard players remove @s[score_temp_min=1] temp 1
 
-tellraw @s ["",{"text":"取款成功！"}]
+tellraw @s [{"text":"【服务器娘】","color":"gold"},{"text":"成功存款200花粉","color":"green"}]

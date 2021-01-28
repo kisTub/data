@@ -8,4 +8,5 @@ execute @s[tag=$hbCountCompare] ~ ~ ~ execute @s[tag=$hbCountTrue] ~ ~ ~ functio
 
 scoreboard players tag @s remove $hbCountCompare
 scoreboard players tag @s remove $hbCountTrue
+scoreboard players tag @s remove $unGetTr
 scoreboard players reset @s tr 
