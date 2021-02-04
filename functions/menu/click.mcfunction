@@ -47,8 +47,5 @@ execute @s[score_book_min=20,score_book=20] ~ ~ ~ function menu:suicide
 #查看玩家信息
 execute @s[score_book_min=21,score_book=21] ~ ~ ~ function menu:infor_myself
 
-#新手引导
-execute @s[score_book_min=30,score_book=30] ~ ~ ~ function menu:b30
-
 scoreboard players set @s book 0
 scoreboard players enable @a book

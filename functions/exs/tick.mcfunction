@@ -1,0 +1,1 @@
+execute @a[score_useCos_min=1] ~ ~ ~ function exs:use_carrot_on_a_stick
