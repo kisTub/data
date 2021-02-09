@@ -1,0 +1,1 @@
+tellraw @s [{"text":"§d【法师/master】","clickEvent":{"action":"run_command","value":"/trigger job set 2"},"hoverEvent":{"action":"show_text","value":"§a用魔法书咏唱魔法来攻击敌人或者提供buff（此版本只有5级）"}}]

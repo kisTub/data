@@ -1,0 +1,1 @@
+tellraw @s [{"text":"§c【战士/soldier】","clickEvent":{"action":"run_command","value":"/trigger job set 4"},"hoverEvent":{"action":"show_text","value":"§a用魔法书咏唱魔法来攻击敌人或者提供buff"}}]
