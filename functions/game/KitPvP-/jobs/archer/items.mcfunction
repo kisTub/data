@@ -1,0 +1,1 @@
+give @s[tag=archer] minecraft:bow 1 0 {bow:1,archer:1b,display:{Name:"§fLv1 §a猎人弓",Lore:["§6〓〓〓〓〓〓〓〓","§a打猎老人专用","§c可升级，自身附魔、命名不继承"]},ench:[{id:48s,lvl:3s},{id:50s,lvl:1s},{id:49s,lvl:2s},{id:70s,lvl:1s}]}
