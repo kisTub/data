@@ -1,1 +1,1 @@
-title @s title ["",{"text":"每日登陆，+100花粉","color":"aqua"}]
+title @s title ["",{"text":"欢迎回到紫罗兰永恒花园！","color":"aqua"}]

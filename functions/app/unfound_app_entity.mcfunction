@@ -1,0 +1,1 @@
+tellraw @s [{"text":"未召唤主城中心实体或离实体太远","color":"red"}]

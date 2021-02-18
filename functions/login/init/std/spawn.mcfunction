@@ -1,1 +1,1 @@
-tp @s 23 5 -29
+trigger book set 1

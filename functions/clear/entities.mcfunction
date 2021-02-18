@@ -37,7 +37,7 @@ entitydata @e[type=mule,tag=!保护,name=!404] {Health:0}
 entitydata @e[type=skeleton_horse,tag=!保护,name=!404] {Health:0}
 entitydata @e[type=llama,tag=!保护,name=!404] {Health:0}
 
-execute @e[type=item,tag=!保护] ~ ~ ~ kill @s[tag=waitingClear]
 scoreboard players tag @e[type=item,tag=!保护] add waitingClear
+execute @e[type=item,tag=!保护] ~ ~ ~ kill @s[tag=waitingClear]
 
 scoreboard players add @a 蓝晶 1

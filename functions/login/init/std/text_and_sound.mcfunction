@@ -6,4 +6,5 @@ title @s subtitle [{"text":"欢迎您的游玩","color":"yellow","bold":false,"i
 tellraw @a ["",{"text":"新玩家","color":"yellow"},{"selector":"@s","color":"yellow"},{"text":"登录服务器主城","color":"yellow"}]
 #声音效果
 execute @s ~ ~ ~ playsound minecraft:block.note.pling block @s
+advancement revoke @s only adv:login
 advancement grant @s only adv:login

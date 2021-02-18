@@ -5,7 +5,7 @@ scoreboard players tag @s remove 下界
 scoreboard players tag @s remove 主世界
 scoreboard players tag @s add 末地
 
-tellraw @s ["",{"text":"维度已变更为地狱"}]
+tellraw @s ["",{"text":"维度已变更为末地"}]
 tellraw @s ["",{"text":"死亡不掉落已经开启"}]
 gamerule keepInventory true
 execute @e[c=1,r=16,tag=endSystem] ~ ~ ~ blockdata ~ ~ ~ {auto:1b}
