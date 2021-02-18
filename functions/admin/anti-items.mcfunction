@@ -6,6 +6,7 @@ clear @a[tag=!op] minecraft:chorus_flower
 clear @a[tag=!op] minecraft:chorus_plant
 #清理粘性活塞和活塞，红石
 clear @a[tag=!op] minecraft:sticky_piston
+clear @a[tag=!op] minecraft:piston
 clear @a[tag=!op] minecraft:redstone
 #清理箱子矿车和漏斗矿车？？？
 #清理有箱子的骡子，驴子，羊驼
