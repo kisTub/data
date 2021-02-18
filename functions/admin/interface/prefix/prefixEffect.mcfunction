@@ -9,4 +9,4 @@ effect @a[tag=速度跳跃] 1 15 2
 effect @a[tag=速度跳跃] 8 15 2 
 effect @a[team=VIP] 11 15 2
 effect @a[team=一方通行] 11 15 1
-tp @a[score_ban_min=10] @e[tag=app]
+#tp @a[score_ban_min=10] @e[tag=app]

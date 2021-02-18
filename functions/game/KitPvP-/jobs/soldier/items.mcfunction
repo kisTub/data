@@ -1,3 +1,0 @@
-give @s[tag=soldier] minecraft:shield 1 0 {display:{Name:"§fLv1  §a锅盖",Lore:["§6〓〓〓〓〓〓〓〓","§a能抵挡少量攻击","§c可升级，自身附魔、命名不继承"]},shield:1,soldier:1b}
-give @s[tag=soldier] minecraft:chainmail_chestplate 1 0 {ench:[{id:0s,lvl:3s},{id:1s,lvl:3s},{id:3s,lvl:3s},{id:4s,lvl:3s},{id:34s,lvl:3s}],chestplate:1,soldier:1b,display:{Name:"§fLv1  §a锁子甲",Lore:["§6〓〓〓〓〓〓〓〓","§a提供主人较低的防御","§c可升级，自身附魔、命名不继承"]}}
-give @s[tag=soldier] minecraft:wooden_sword 1 0 {display:{Name:"§fLv1 §d桃花剑",Lore:["§6〓〓〓〓〓〓〓〓","§a稻花香里说丰年","§a听取蛙声一片","§c可升级，自身附魔、命名不继承"]},ench:[{id:16s,lvl:3s},{id:17s,lvl:3s},{id:18s,lvl:3s},{id:34s,lvl:3s}],sword:1,soldier:1b}

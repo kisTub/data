@@ -1,0 +1,5 @@
+scoreboard players tag @s[tag=!地面] add 地面 {OnGround:1b}
+scoreboard players tag @s[tag=地面] remove 地面 {OnGround:0b}
+execute @s[tag=地面] ~ ~ ~ detect ~ ~-1 ~ air 0 execute @s ~ ~ ~ detect ~1 ~-1 ~1 air 0 execute @s ~ ~ ~ detect ~1 ~-1 ~-1 air 0 execute @s ~ ~ ~ detect ~-1 ~-1 ~-1 air 0 execute @s ~ ~ ~ detect ~-1 ~-1 ~1 air 0 execute @s ~ ~ ~ detect ~1 ~-1 ~ air 0 execute @s ~ ~ ~ detect ~ ~-1 ~1 air 0 execute @s ~ ~ ~ detect ~-1 ~-1 ~ air 0 execute @s ~ ~ ~ detect ~ ~-1 ~-1 air 0 execute @s ~ ~ ~ detect ~ ~ ~ air 0 execute @s ~ ~ ~ detect ~1 ~ ~ air 0 execute @s ~ ~ ~ detect ~ ~ ~1 air 0 execute @s ~ ~ ~ detect ~1 ~ ~1 air 0 execute @s ~ ~ ~ detect ~1 ~ ~-1 air 0 execute @s ~ ~ ~ detect ~-1 ~ ~1 air 0 execute @s ~ ~ ~ detect ~-1 ~ ~-1 air 0 execute @s ~ ~ ~ detect ~ ~ ~-1 air 0 execute @s ~ ~ ~ detect ~-1 ~ ~ air 0 scoreboard players add @s ban 1
+execute @s[score_ban_min=10] ~ ~ ~ tellraw @a[tag=op] [{"text":"【服务器娘】","color":"red"},{"text":"发现嫌疑犯","color":"yellow"},{"selector":"@s","color":"red","bold":true}]
+execute @s[score_ban_min=10] ~ ~ ~ scoreboard players set @s ban 0

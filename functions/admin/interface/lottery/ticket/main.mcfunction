@@ -2,6 +2,7 @@
 scoreboard players operation @s random_min = #lotteryTicketNum random_min
 scoreboard players operation @s random_max = #lotteryTicketNum random_max
 function random:random
+execute @s[score_random_min=0,score_random=0] ~ ~ ~ title @a title ["",{"text":"hhc!!!"}]
 scoreboard players operation @s temp = @s random
 scoreboard players operation @s temp /= #lotteryTicketOper var
 scoreboard players operation @a temp = @s temp

@@ -1,0 +1,1 @@
+give @p minecraft:flint 1 0 {damoshi:1b,display:{Name:"§a初级打磨石",Lore:["§6〓〓〓〓〓〓","§a升级初级装备","§c可合成中级打磨石"]},ench:[{id:34s,lvl:5s}]}

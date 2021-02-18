@@ -1,1 +1,0 @@
-tellraw @s [{"text":"§a【弓箭手/archer】","clickEvent":{"action":"run_command","value":"/trigger job set 3"},"hoverEvent":{"action":"show_text","value":"§a用弓箭来攻击敌人，高级弓（主手）和特殊箭（副手）才能有特殊效果"}}]

@@ -6,11 +6,11 @@ scoreboard players tag @s[score_入服=0] add 入服
 scoreboard players add @s[tag=入服,score_入服=0] 入服 10
 
 #登录初始化接口
-execute @e[type=player,tag=入服,score_入服_min=10,score_入服=10] ~ ~ ~ execute @s[tag=!-loginDisable] ~ ~ ~ function admin:interface/login/init/init unless @e[tag=-loginDisable,type=area_effect_cloud]
+execute @e[type=player,tag=入服,score_入服_min=10,score_入服=10] ~ ~ ~ execute @s[tag=!-loginDisable] ~ ~ ~ function admin:login/init/init unless @e[tag=-loginDisable,type=area_effect_cloud]
 
 #结束循环
 #scorebo players add @e[type=player,tag=入服,score_入服_min=20,score_入服=20] 入服 10
 scoreboard players add @s[tag=入服,score_入服_min=10,score_入服=10] 入服 10
-give @e[type=player,tag=!入服,score_入服=20,score_入服_min=20] minecraft:banner 1 15 {BlockEntityTag:{Base:15,Patterns:[{Pattern:sb,Color:0}]}}
+kill @e[type=player,tag=!入服,score_入服=20,score_入服_min=20]
 
 

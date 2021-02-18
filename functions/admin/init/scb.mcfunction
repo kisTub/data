@@ -25,7 +25,6 @@ scoreboard objectives add backLeaveGame stat.leaveGame
 scoreboard objectives add hurtPlayerCount dummy
 scoreboard objectives add 惩罚次数 dummy
 scoreboard objectives add deathCount deathCount
-scoreboard objectives add sign dummy
 scoreboard objectives add cs trigger
 scoreboard objectives add tr trigger
 scoreboard objectives add timer dummy
@@ -63,6 +62,10 @@ scoreboard objectives add hour dummy
 scoreboard objectives add day dummy
 #登录指导
 scoreboard objectives add loginLead dummy
+#签到
+scoreboard objectives add 星期 dummy
+scoreboard objectives add sign dummy
+
 
 scoreboard objectives setdisplay list uid
 scoreboard objectives setdisplay belowName 血量
@@ -83,7 +86,14 @@ scoreboard players set #1000 var 1000
 scoreboard players set #200 var 200
 scoreboard players set #20 var 20
 #公告
-scoreboard players set _________服务器公告_________ 公告 1
+scoreboard players set §a➤§3蓝晶圈地（§e1000§3起圈70*70） 公告 45
+scoreboard players set §a➢§a文明游玩，§e1w§6内为资源区 公告 44
+scoreboard players set §a➣§d本服矿物调多，煤炭调少 公告 42
+scoreboard players set §a➤§e菜单:§b§l/trigger_cd_set_1 公告 41
+scoreboard players reset §a↓§b菜单指令§a↓§3或右键使用§6胡萝卜钓竿§r 公告
+scoreboard players set §6〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓§r 公告 20
+scoreboard players set §6〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓§r 公告 20
+scoreboard players set §c⚠§6OP不定时观察§d逢挂必ban 公告 19
 scoreboard players set 当前服务器正在进行内测中 公告 1
 scoreboard players set 感谢您的参与和支持 公告 1
 

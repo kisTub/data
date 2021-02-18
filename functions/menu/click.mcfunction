@@ -1,5 +1,4 @@
 execute @s[score_book_min=1] ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=!redstone] add redstone
-execute @s[score_book_min=1] ~ ~ ~ execute @p[r=20] ~ ~ ~ scoreboard players tag @e[type=item,r=20,tag=redstone] remove redstone
 kill @e[tag=redstone]
 #函数接口-使用菜单
 

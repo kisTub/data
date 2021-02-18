@@ -1,4 +1,4 @@
-tp @s @p[tag=tpaInvitee]
-function admin:interface/tpa/sender/reset
-execute @p[tag=tpaInvitee] ~ ~ ~ function admin:interface/tpa/invitee/reset
-tellraw @a [{"text":">>","color":"gray","bold":"true"},{"text":"传送重置完毕.","color":"green","bold":"false"}]
+tp @p[tag=tpaSender] @s
+tellraw @p[tag=tpaSender,r=1] ["",{"text":"成功"}]
+tellraw @s ["",{"text":"成功"}]
+function admin:interface/tpa/reset

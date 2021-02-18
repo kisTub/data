@@ -1,1 +1,0 @@
-tellraw @s[tag=op] ["",{"text":"[Menu] by Oceangoingvoyage\n"},{"text":"-version v1.2"}]

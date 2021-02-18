@@ -8,21 +8,22 @@
 scoreboard players remove $resetDimensionScore var 1
 scoreboard players operation @s temp = $resetDimensionScore var
 execute @s[score_temp=0,score_temp_min=0] ~ ~ ~ function admin:interface/resetDimensionScore
-#清理动物
+#实体清理
 #execute @s[tag=!-clearAnimal]
 #function admin:exepoint/clearAnimal
-scoreboard players remove $clearTime-ani var 1
-scoreboard players operation @s temp = $clearTime-ani var
-execute @s[score_temp=200,score_temp_min=20,tag=!-clearAnimal] ~ ~ ~ function admin:interface/clearTimeSide
-execute @s[score_temp=0,score_temp_min=0,tag=!-clearAnimal] ~ ~ ~ function admin:interface/clearAnimal
-#清理间隔
-#execute @s[tag=!-clearMob]
-execute @s[tag=!-clearMob] ~ ~ ~ scoreboard players remove $clearTime var 1
-scoreboard players operation @s[tag=!-clearMob] temp = $clearTime var
-execute @s[score_temp=0,score_temp_min=0,tag=!-clearMob] ~ ~ ~ function admin:interface/clearMob
-#侧边栏主公告
+scoreboard players remove $clearTime var 1
+scoreboard players operation @s temp = $clearTime var
+execute @s[score_temp=200,score_temp_min=20,tag=!-clearTime] ~ ~ ~ function admin:interface/clearTimeSide
+execute @s[score_temp=0,score_temp_min=0,tag=!-clearTime] ~ ~ ~ function admin:interface/clearMob
+#侧边栏显示
 scoreboard players remove $sidebarShowTime var 1
 scoreboard players operation @s temp = $sidebarShowTime var
+execute @s[score_temp=12000,score_temp_min=12000] ~ ~ ~ scoreboard objectives setdisplay sidebar 公告
+execute @s[score_temp=10000,score_temp_min=10000] ~ ~ ~ scoreboard objectives setdisplay sidebar 花粉
+execute @s[score_temp=8000,score_temp_min=8000] ~ ~ ~ scoreboard objectives setdisplay sidebar 公告
+execute @s[score_temp=6000,score_temp_min=6000] ~ ~ ~ scoreboard objectives setdisplay sidebar 挖掘
+execute @s[score_temp=4000,score_temp_min=4000] ~ ~ ~ scoreboard objectives setdisplay sidebar 公告
+execute @s[score_temp=2000,score_temp_min=2000] ~ ~ ~ scoreboard objectives setdisplay sidebar 经验
 execute @s[score_temp=0,score_temp_min=0] ~ ~ ~ function admin:interface/sidebarShowTime
 #彩票
 scoreboard players remove $lotteryTicketTime var 1
