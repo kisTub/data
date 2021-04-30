@@ -1,14 +1,10 @@
-#操作点
-#execute @e[tag=exePoint,type=area_effect_cloud] ~ ~ ~ function login:.exepoint
-#标准初始化登录
+#加载配置
+function login:config/load
+#以标准初始化登录模式执行登录
 execute @s[tag=!-loginStd] ~ ~ ~ function login:init/std
 #登录调式
-#execute @s[tag=!-loginDebug] ~ ~ ~ function login:initDebug if @e[tag=loginDebug,name=exePoint,type=area_effect_cloud]
-#cb后置接口
-#function login:.ins/command_block_interface/_loginInit
+execute @s[tag=loginDebug] ~ ~ ~ function login:init/debug
 
-tellraw @a[tag=§a💢Monitor§r] ["",{"text":"[loginInit]节点函数已经加载","color":"gray"},{"text":" login:Init","color":"gray"}]
-
-#execute @s[tag=!-loginUid] ~ ~ ~ function login:.ins/uid unless @e[tag=-loginUid,name=exePoint,type=area_effect_cloud]
+summon minecraft:fireworks_rocket ~ ~4 ~ {FireworksItem:{id:"minecraft:fireworks",Count:1,tag:{Fireworks:{Explosions:[{Flicker:1b,Type:1,Colors:[I;2948864],FadeColors:[I;14101805]},{Flicker:1b,Type:4,Colors:[I;16448250],FadeColors:[I;4331609]},{Flicker:1b,Type:1,Colors:[I;5576210],FadeColors:[I;5576210]},{Flicker:1b,Type:1,Colors:[I;16753152],FadeColors:[I;1154697]}]}}}}
 
 
