@@ -4,6 +4,6 @@ tellraw @s[tag=op] [{"text":"添加的计分板包括'book','useCos','cd'"}]
 
 playsound minecraft:block.note.pling block @s
 
-scoreboard objectives add book trigger
+scoreboard objectives remove book trigger
 scoreboard objectives add useCos stat.useItem.minecraft.carrot_on_a_stick
 scoreboard objectives add cd trigger

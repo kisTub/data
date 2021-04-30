@@ -1,6 +1,6 @@
 #scoreboard players operation @s temp = @s var
 #scoreboard players operation @s temp /= #20 var
-execute @s[score_var_min=10,score_var=10] ~ ~ ~ tellraw @a[tag=!screenClear] ["",{"text":"清理10秒倒计时"}]
+execute @s[score_var_min=10,score_var=10] ~ ~ ~ tellraw @a[tag=!screenClear] ["",{"text":"（๑ `▽´๑) 清理10秒倒计时","color":"yellow"}]
 execute @s[score_var_min=9,score_var=9] ~ ~ ~ title @a[tag=!screenClear] title ["",{"text":"                           9秒"}]
 execute @s[score_var_min=8,score_var=8] ~ ~ ~ title @a[tag=!screenClear] title ["",{"text":"                           8秒"}]
 execute @s[score_var_min=7,score_var=7] ~ ~ ~ title @a[tag=!screenClear] title ["",{"text":"                           7秒"}]

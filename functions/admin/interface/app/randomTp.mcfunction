@@ -1,4 +1,0 @@
-title @s actionbar [{"text":"玩家名：","color":"green","bold":true},{"selector":"@s","color":"white","bold":true},{"text":" 击杀","color":"red","bold":true},{"score":{"objective":"击杀","name":"@s"},"color":"gold","bold":true},{"text":" 死亡","color":"red","bold":true},{"score":{"objective":"死亡","name":"@s"},"color":"gold","bold":true},{"text":" 花粉","color":"light_purple","bold":true},{"score":{"objective":"花粉","name":"@s"},"color":"gold","bold":true},{"text":" 蓝晶","color":"dark_aqua","bold":true},{"score":{"objective":"蓝晶","name":"@s"},"color":"gold","bold":true},{"text":" 往返异界","color":"red","bold":true},{"score":{"objective":"异界分数","name":"@s"},"color":"red","bold":true}]
-advancement grant @s only adv:random_tp
-execute @s[score_随机传送_min=1,score_随机传送=1] ~ ~ ~ function admin:interface/app/randomtp/7wa
-execute @s[score_随机传送_min=2,score_随机传送=2] ~ ~ ~ function admin:interface/app/randomtp/3wa

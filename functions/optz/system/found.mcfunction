@@ -1,0 +1,1 @@
+tellraw @s[tag=op] [{"text":"发现optzSystem","color":"green"}]

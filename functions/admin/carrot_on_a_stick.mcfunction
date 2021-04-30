@@ -1,1 +1,0 @@
-scoreboard players set @s cd 1 {SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{openMenu:1b}}}

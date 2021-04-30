@@ -1,0 +1,1 @@
+tellraw @s[tag=op] [{"text":"缺少optzSystem系统实体","color":"red"}]

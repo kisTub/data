@@ -4,28 +4,20 @@
       "item": "minecraft:paper"
     },
     "title": {
-      "text": "任务"
+      "text": "紫罗兰永恒花园"
     },
     "description": {
-      "text": "任务 带'*'任务会在完成后清理相应物品"
+      "text": "欢迎！"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    "background": "minecraft:textures/blocks/glazed_terracotta_yellow.png"
   },
   "criteria": {
     "crafting_table": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:carrot_on_a_stick",
-			      "nbt": "{openMenu:1b}"
-          }
-        ]
-      }
+      "trigger": "minecraft:tick"
     }
   }
 }

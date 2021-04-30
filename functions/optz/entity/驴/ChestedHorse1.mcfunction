@@ -1,0 +1,1 @@
+entity @e[type=donkey] {ChestedHorse:0b}

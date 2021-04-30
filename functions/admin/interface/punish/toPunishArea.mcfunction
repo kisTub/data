@@ -1,1 +1,0 @@
-tp @s @e[tag=punishArea,type=area_effect_cloud,c=1]

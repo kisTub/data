@@ -1,0 +1,1 @@
+function clear:system/summon unless @e[tag=clearSystem]

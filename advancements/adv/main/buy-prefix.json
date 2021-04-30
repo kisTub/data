@@ -1,0 +1,26 @@
+{
+    "parent":"adv:login",
+    "display": {
+      "icon": {
+        "item": "minecraft:skull"
+      },
+      "title": {
+        "text": "购买称号"
+      },
+      "description": {
+        "text": "首次成功购买称号"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "crafting_table": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+	  "rewards": {
+	    "function":"adv:main/buy-preifix"
+	}
+  }

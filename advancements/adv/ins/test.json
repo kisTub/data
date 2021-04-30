@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "minecraft:carrot_on_a_stick"
+        }
+      }
+    }
+  }
+}

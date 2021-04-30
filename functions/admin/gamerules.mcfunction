@@ -1,3 +1,0 @@
-gamerule commandBlockOutput false
-gamerule keepInventory true
-gamerule mobGriefing false

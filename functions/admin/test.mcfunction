@@ -1,1 +1,0 @@
-scoreboard players tag @s add §k1830649275
