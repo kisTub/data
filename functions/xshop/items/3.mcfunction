@@ -1,0 +1,1 @@
+give @s minecraft:diamond_pickaxe 1 0 {display:{Name:"§3Ⅱ§b破云霄",Lore:["§a▼§b〓〓〓〓〓§a▼","§2➤§b一直向前去!"]},ench:[{id:32s,lvl:7s},{id:19s,lvl:3s},{id:33s,lvl:1s},{id:34s,lvl:5s}]}

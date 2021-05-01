@@ -1,0 +1,1 @@
+give @s minecraft:diamond_axe 1 0 {display:{Name:"§2Ⅱ§a平安斧",Lore:["§a▼§2〓〓〓〓〓§a▼","§2➤§a大山的创造神."]},ench:[{id:32s,lvl:8s},{id:34s,lvl:5s},{id:16s,lvl:3s}]}

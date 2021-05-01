@@ -1,0 +1,1 @@
+ give @s minecraft:diamond_helmet 1 0 {display:{Name:"§3Ⅱ§b水天一色",Lore:["§a▼§b〓〓〓〓〓§a▼","§2➤§b滴答水流哗哗"]},ench:[{id:4s,lvl:8s},{id:5s,lvl:3s},{id:6s,lvl:3s},{id:34s,lvl:5s}],AttributeModifiers:[{AttributeName:"generic.luck",Name:"noName",Amount:5d,Operation:0,UUIDMost:4211721576448784L,UUIDLeast:4211721576448784L,Slot:head}]}

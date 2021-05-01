@@ -1,0 +1,1 @@
+give @s minecraft:iron_helmet 1 0 {display:{Name:"§6Ⅲ§c夜行者",Lore:["§a▼§6〓〓〓〓〓§a▼","§2➤§c眼前即是光明."]},ench:[{id:0s,lvl:10s},{id:34s,lvl:10s}]}

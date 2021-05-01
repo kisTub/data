@@ -1,3 +1,1 @@
-#此处可换为give
-#这只是一个测试物品
-summon minecraft:item ~ ~2 ~ {CustomName:"高级商店商品",CustomNameVisible:1b,Item:{id:"minecraft:diamond_sword",Count:1b,Damage:2000s,tag:{ench:[{id:18,lvl:1},{id:18,lvl:1},{id:20,lvl:32},{id:8,lvl:32},{id:71,lvl:1},{id:71,lvl:1}]}}}
+give @s minecraft:diamond_sword 1 0 {display:{Name:"§6Ⅲ§c霓裳",Lore:["§a▼§6〓〓〓〓〓〓§a▼","§2➤§c银河散落的孤星."]},ench:[{id:16s,lvl:10s},{id:19s,lvl:3s},{id:18s,lvl:4s},{id:17s,lvl:4s},{id:21s,lvl:3s},{id:20s,lvl:2s},{id:34s,lvl:3s}],AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"noName",Amount:20d,Operation:0,UUIDMost:2977828346648249L,UUIDLeast:2977828346648249L,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"noName",Amount:2d,Operation:0,UUIDMost:5953867193546284L,UUIDLeast:5953867193546284L,Slot:mainhand}]}
