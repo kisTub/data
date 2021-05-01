@@ -12,7 +12,7 @@ execute @s[score_book_min=4,score_book=4] ~ ~ ~ function menu:pgs/b4
 execute @s[score_book_min=5,score_book=5] ~ ~ ~ function menu:pgs/home-back
 #返回死亡点
 execute @s[score_book_min=6,score_book=6] ~ ~ ~ function menu:pgs/death-back
-#四楼任务
+#传送枢纽 riskTp
 execute @s[score_book_min=7,score_book=7] ~ ~ ~ function menu:pgs/b7
 #五楼藏品
 execute @s[score_book_min=8,score_book=8] ~ ~ ~ function menu:pgs/b8
