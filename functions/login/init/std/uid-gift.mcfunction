@@ -1,1 +1,0 @@
-give @s minecraft:diamond_sword 1 0 {display:{Name:"§cⅩ§e永恒之剑",Lore:["§c〓〓〓〓〓〓〓〓","§4重置补偿","§b进服前100赠送"]},ench:[{id:34s,lvl:5s},{id:16s,lvl:5s},{id:17s,lvl:5s},{id:18s,lvl:5s},{id:19s,lvl:2s},{id:20s,lvl:3s},{id:22s,lvl:3s},{id:21s,lvl:2s}]}

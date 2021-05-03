@@ -1,1 +1,0 @@
-give @s minecraft:diamond_shovel 1 0 {display:{Name:"§2Ⅱ§a地灵拐",Lore:["§a▼§2〓〓〓〓〓§a▼","§2➤§a苍茫的大地."]},ench:[{id:32s,lvl:6s},{id:34s,lvl:5s},{id:35s,lvl:3s}]}

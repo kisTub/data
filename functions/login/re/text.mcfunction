@@ -1,1 +1,0 @@
-title @s title ["",{"text":"欢迎回到紫罗兰永恒花园！","color":"aqua"}]

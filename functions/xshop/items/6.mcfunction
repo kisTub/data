@@ -1,1 +1,0 @@
-give @s minecraft:stick 1 0 {display:{Name:"§2Ⅰ§a风卷云",Lore:["§a▼§2〓〓〓〓〓§a▼","§2➤§a防止近身必备!"]},ench:[{id:19s,lvl:10s},{id:20s,lvl:3s}]}

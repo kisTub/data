@@ -1,1 +1,0 @@
-tellraw @a ["",{"text":"(˚ >v< ) 地面清理完毕","color":"green"}]

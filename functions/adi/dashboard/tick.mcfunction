@@ -1,1 +1,0 @@
-execute @e[tag=basexSystem,c=1] ~ ~ ~ function basex:dashboard/control 

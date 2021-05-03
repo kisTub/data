@@ -1,1 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":">>","bold":true,"color":"gray"},{"text":"点击此处输入ta的玩家编号（Tab查看）","color":"green","clickEvent":{"action":"suggest_command","value":"/trigger cs set "},"hoverEvent":{"action":"show_text","value":"按住键盘左上区域的Tab键，可以打开玩家列表。每个玩家后显示的黄色数字就是该玩家的编号（也可称作uid）"}}]}

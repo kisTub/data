@@ -1,1 +1,0 @@
-tp @s @e[tag=gcVoid,c=1,rm=1]

@@ -1,1 +1,0 @@
-give @s minecraft:fishing_rod 1 0 {display:{Name:"§3Ⅱ§b江叹兮",Lore:["§a▼§b〓〓〓〓〓§a▼","§2➤§b大自然的馈赠."]},ench:[{id:61s,lvl:5s},{id:34s,lvl:10s},{id:62s,lvl:5s},{id:35s,lvl:3s}]}

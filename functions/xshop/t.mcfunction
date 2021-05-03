@@ -1,3 +1,0 @@
-give @s minecraft:sign 1 0 {BlockEntityTag:{Text1:"[{\"text\":\"\"}]",Text2:"[{\"text\":\"\"}]",Text3:"[{\"text\":\"\"}]",Text4:"[{\"text\":\"§5===§b钻镐§5===\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/say 1\"}}]"}}
-
-give @s minecraft:sign 1 0 {BlockEntityTag:{Text1:"[{\"text\":\"\"}]",Text2:"[{\"text\":\"\"}]",Text3:"[{\"text\":\"\"}]",Text4:"[{\"text\":\"§5===§b钻剑§5===\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/say 1\"}}]"}}

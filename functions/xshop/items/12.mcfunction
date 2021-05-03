@@ -1,1 +1,0 @@
-give @s minecraft:diamond_boots 1 0 {display:{Name:"§3Ⅱ§b运动鞋",Lore:["§a▼§b〓〓〓〓〓§a▼","§2➤§b笑对1000m!"]},ench:[{id:2s,lvl:8s},{id:7s,lvl:3s},{id:8s,lvl:3s},{id:34s,lvl:5s}],AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"noName",Amount:0.03d,Operation:0,UUIDMost:2621133486475667L,UUIDLeast:2621133486475667L,Slot:feet}]}

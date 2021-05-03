@@ -1,1 +1,0 @@
-give @s minecraft:bow 1 0 {display:{Name:"§6Ⅲ§c§l破晓",Lore:["§a▼§6〓〓〓〓〓§a▼","§2➤§c神明所造的武器."]},ench:[{id:49s,lvl:4s},{id:48s,lvl:10s},{id:50s,lvl:3s},{id:34s,lvl:5s},{id:51s,lvl:1s}]}

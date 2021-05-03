@@ -1,1 +1,0 @@
-summon minecraft:wither ~ ~1 ~  {CustomName:"§a欢迎来到紫罗兰永恒花园内测服",Tags:["保护","app"],Silent:1b,NoAI:1b,Invul:0}
