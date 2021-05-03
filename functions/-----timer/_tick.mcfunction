@@ -1,1 +1,0 @@
-scoreboard players add #timerTick var 1

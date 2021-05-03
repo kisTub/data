@@ -1,5 +1,7 @@
 scoreboard players reset @s ch
 scoreboard players enable @s ch
+#音效
+playsound minecraft:entity.player.levelup player @s ~ ~ ~ 2 1
 #称号仓库样式
 tellraw @s [{"text":"§3\u00a7a▼▼§b\u00a7l称号\u00a73●\u00a7b\u00a7l仓库\u00a7a▼▼§3    "}]
 tellraw @s[tag=001] [{"text":"  §6[JO厨]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 001"}}]
@@ -63,6 +65,6 @@ tellraw @s[tag=058] [{"text":"  §a[东邪西毒]§r","clickEvent":{"action":"ru
 tellraw @s[tag=059] [{"text":"  §b[南帝北丐]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 059"}}]
 tellraw @s[tag=060] [{"text":"  §e[中神通]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 060"}}]
 
-tellraw @s [{"text":"  §c[默认称号]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 100"}}]
+tellraw @s [{"text":"  §c[点我更新|佩戴默认称号]§r","clickEvent":{"action":"run_command","value":"/trigger ch set 100"}}]
 tellraw @s [{"text":"§3\u00a7a▲▲§b\u00a7l称号\u00a73●\u00a7b\u00a7l仓库\u00a7a▲▲§3"}]
 

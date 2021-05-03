@@ -1,3 +1,4 @@
+scoreboard objectives add 入服 dummy
 #激活 入股 计分板
 scoreboard players add @s[tag=!入服] 入服 0
 #添加标签 入服

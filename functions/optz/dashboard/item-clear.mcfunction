@@ -45,5 +45,11 @@ scoreboard players operation @s temp = #optzItemClear漏斗矿车 var
 tellraw @s[score_temp=0] [{"text":"- 漏斗矿车: ","clickEvent":{"action":"run_command","value":"/function optz:item/漏斗矿车/dashboard/disable"}},{"text":"允许","color":"green"}]
 tellraw @s[score_temp_min=1] [{"text":"- 漏斗矿车: ","clickEvent":{"action":"run_command","value":"/function optz:item/漏斗矿车/dashboard/enable"}},{"text":"禁止","color":"red"}]
 
+#- 打火石：禁止/允许
+scoreboard players operation @s temp = #optzItemClear打火石 var
+tellraw @s[score_temp=0] [{"text":"- 漏斗矿车: ","clickEvent":{"action":"run_command","value":"/function optz:item/打火石/dashboard/disable"}},{"text":"允许","color":"green"}]
+tellraw @s[score_temp_min=1] [{"text":"- 漏斗矿车: ","clickEvent":{"action":"run_command","value":"/function optz:item/打火石/dashboard/enable"}},{"text":"禁止","color":"red"}]
+
+
 scoreboard players reset @s temp
 

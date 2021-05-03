@@ -1,5 +1,5 @@
 scoreboard players operation @s 花粉 -= @s xshopPrice
-tellraw @s ["购买成功"]
+tellraw @s ["§6【服务器娘】§a购买成功"]
 playsound minecraft:block.anvil.destroy block @s 0 0 10000000 2 1
 
 #此标签用于命令方块检测

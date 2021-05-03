@@ -10,5 +10,7 @@ function optz:item/紫颂花/clear unless @s[tag=-optzItemClear紫颂花]
 function optz:item/运输矿车/clear unless @s[tag=-optzItemClear运输矿车]
 #minecraft:hopper_minecart
 function optz:item/漏斗矿车/clear unless @s[tag=-optzItemClear漏斗矿车]
+#minecraft:flint_and_steel
+function optz:item/打火石/clear unless @s[tag=-optzItemClear打火石]
 
 kill @e[tag=optzClear,type=item]

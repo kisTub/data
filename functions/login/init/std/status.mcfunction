@@ -4,5 +4,5 @@
 #scoreboard players tag @s add -appProtection
 #effect @s minecraft:invisibility 1000000 255 true
 #effect @s minecraft:levitation 1000000 255 true
-
+execute @s ~ ~ ~ function prefix:init
 
