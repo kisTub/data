@@ -15,6 +15,9 @@ playsound minecraft:ui.toast.challenge_complete record @s
 #烟花效果
 summon minecraft:fireworks_rocket ~ ~1 ~ {FireworksItem:{id:"minecraft:fireworks",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;14957885],FadeColors:[I;15356345]},{Type:0,Colors:[I;2579184],FadeColors:[I;4450279]},{Type:0,Colors:[I;65314],FadeColors:[I;11137903]},{Type:0,Colors:[I;16745728],FadeColors:[I;15591254]}]}}}}
 
+#激活初始称号
+execute @s ~ ~ ~ function ch:i
+
 #药水效果
 
 #改变出生点
