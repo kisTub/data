@@ -1,0 +1,5 @@
+gamerule keepInventory true
+gamerule mobGriefing false
+gamerule doFireTick false
+gamerule commandBlockOutput false
+gamerule maxCommandChainLength 65536

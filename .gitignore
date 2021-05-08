@@ -1,4 +1,12 @@
 
-villages.dat
-villages_end.dat
-villages_nether.dat
+region
+advancements
+DIM1
+DIM-1
+playerdata
+stats
+icon.png
+level.dat_old
+session.lock
+*.zip
+*.dat
