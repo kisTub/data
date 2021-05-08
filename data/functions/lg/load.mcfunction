@@ -3,6 +3,7 @@ scoreboard objectives add temp dummy
 scoreboard objectives add var dummy
 scoreboard objectives add etr_ser dummy
 scoreboard objectives add uid dummy
+scoreboard objectives add *leavegame stat.leaveGame
 
 #常量
 
