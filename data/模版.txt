@@ -1,0 +1,3 @@
+#json格式
+,"clickEvent":{"action":"run_command","value":"/trigger xxx set 1"}
+,"score":{"name":"","objective":""}

@@ -6,3 +6,5 @@ effect @s clear
 
 scoreboard players reset @s uid
 scoreboard players reset @s etr_ser
+
+advancement revoke @s only adi:player_ini

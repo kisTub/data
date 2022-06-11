@@ -1,0 +1,1 @@
+tellraw @s [{"text":"时间："},{"score":{"name":"@s","objective":"day"}},{"text":" 天 "},{"score":{"name":"@s","objective":"hour"}},{"text":" 时 "},{"score":{"name":"@s","objective":"min"}},{"text":" 分 "},{"score":{"name":"@s","objective":"second"}},{"text":" 秒"}]

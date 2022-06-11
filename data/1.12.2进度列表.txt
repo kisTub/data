@@ -1,0 +1,29 @@
+effects_changed、used_totem、nether_travel
+minecraft:item_durability_changed
+minecraft:levitation
+minecraft:location
+changed_dimension
+minecraft:tick
+minecraft:tame_animal
+consume_item
+placed_block
+construct_beacon
+
+minecraft:bred_animals玩家繁殖两个动物"parents", "child"
+minecraft:brewed_potion玩家酿造一瓶药水"potion"
+minecraft:construct_beacon玩家更改信标结构。（当信标自我更新时）"level"
+minecraft:cured_zombie_villager玩家治愈僵尸村民"zombie, "villager"
+minecraft:enchanted_item玩家通过附魔台附魔物品（使用铁砧或命令时不触发）"item", "levels"
+minecraft:enter_block玩家进入方块（比如传送门）。玩家需要站在与方块相同的空间里"block", "state"
+minecraft:entity_killed_player实体杀死玩家"entity"
+minecraft:impossible永远不会被触发
+minecraft:inventory_changed玩家物品栏变化"items", "slots"
+minecraft:location每20游戏刻（1秒钟）"position", "biome"
+minecraft:entity_hurt_player玩家受到实体伤害"damage"
+minecraft:player_hurt_entity玩家伤害实体（包括自己）"damage"
+minecraft:player_killed_entity玩家杀死实体"entity"
+minecraft:recipe_unlocked玩家解锁配方"recipe"
+minecraft:slept_in_bed玩家上床睡觉"location"
+minecraft:summoned_entity玩家召唤实体，例如凋灵头颅（需要完全测试，在使用发射器、刷怪蛋、南瓜及末影龙可用）"entity"
+minecraft:used_ender_eye玩家使用末影之眼（在有要塞生成的世界）"distance"
+minecraft:villager_trade玩家与村民交易"villager", "item"

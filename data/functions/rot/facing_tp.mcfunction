@@ -1,0 +1,2 @@
+function rot:facing_tp_x
+function rot:facing_tp_y

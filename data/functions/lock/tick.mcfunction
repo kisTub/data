@@ -1,0 +1,1 @@
+execute @a[score_place_sign_min=1] ~ ~ ~ function lock:player/use_sign

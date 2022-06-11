@@ -1,0 +1,1 @@
+execute @a[score_*leavegame_min=1] ~ ~ ~ function lg:re

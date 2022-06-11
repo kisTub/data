@@ -1,0 +1,2 @@
+give @p minecraft:stone_sword 1 0 {display:{Name:"§f凋零剑"},id:"zll:wither_sword"}
+give @p minecraft:diamond_sword 1 0 {AttributeModifiers:[{Operation:0,Amount:7,UUIDLeast:-1271655844656749661L,UUIDMost:2941887194198641693L,Slot:mainhand,AttributeName:"generic.attackDamage",Name:"generic.attackDamage"},{Operation:0,Amount:50,UUIDLeast:-1562317467557828923L,UUIDMost:2595299167915898698L,Slot:mainhand,AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed"}]}

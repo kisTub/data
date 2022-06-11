@@ -1,0 +1,1 @@
+for /l %%a in (0,1,20) do .>lock%%a.mcfunction
