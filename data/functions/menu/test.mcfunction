@@ -1,1 +1,0 @@
-summon boat ~ ~1 ~ {NoGravity:1b,Tags:["b"],Passengers:[{NoGravity:1b,id:"minecraft:boat",Tags:["a"]},{NoGravity:1b,id:"minecraft:boat",Tags:["a"],Passengers:[{NoGravity:1b,id:"minecraft:boat",Tags:["a"]},{NoGravity:1b,id:"minecraft:boat",Tags:["a"],Passengers:[{NoGravity:1b,id:"minecraft:boat",Tags:["a"]},{NoGravity:1b,id:"minecraft:boat",Tags:["a"]}]}]}]}
