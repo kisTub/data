@@ -1,0 +1,1 @@
+tellraw @s [{"text":"周围没有任何玩家","color":"red"}]

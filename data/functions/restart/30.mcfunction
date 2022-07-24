@@ -1,0 +1,1 @@
+tellraw @a [{"text":"距离服务器重启还有30秒","color":"light_purple"}]

@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Glowing:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,NoGravity:1b,Invisible:1,ShowArms:1,Small:1,DisabledSlots:2039583,Marker:true,Tags:["domain_marker"]}

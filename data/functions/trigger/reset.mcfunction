@@ -1,0 +1,15 @@
+scoreboard players reset ch trigger
+scoreboard players reset cd trigger
+scoreboard players reset cs trigger
+scoreboard players reset ld trigger
+scoreboard players reset ld_gl trigger
+scoreboard players reset home_set trigger
+scoreboard players reset home_back trigger
+scoreboard players reset home_remove trigger
+scoreboard players reset home_list trigger
+scoreboard players reset fly trigger
+scoreboard players reset tpa trigger
+scoreboard players reset menu trigger
+scoreboard players reset help trigger
+scoreboard players reset tpa trigger
+scoreboard players reset tpa_trigger trigger

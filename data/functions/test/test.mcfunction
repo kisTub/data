@@ -1,1 +1,1 @@
-say test:test
+tellraw @s ["§k123"]

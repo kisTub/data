@@ -1,0 +1,12 @@
+tellraw @s [{"text":"41","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 58.16.160.98"}}]
+tellraw @s [{"text":"42","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 139.227.235.63"}}]
+tellraw @s [{"text":"43","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 117.141.61.20"}}]
+tellraw @s [{"text":"44","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 183.197.108.28"}}]
+tellraw @s [{"text":"45","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 183.199.169.240"}}]
+tellraw @s [{"text":"46","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 171.124.185.42"}}]
+tellraw @s [{"text":"47","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 113.239.132.248"}}]
+tellraw @s [{"text":"48","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 113.230.132.60"}}]
+tellraw @s [{"text":"49","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 113.239.135.35"}}]
+tellraw @s [{"text":"50","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/ban-ip 219.146.223.154"}}]
+
+tellraw @s [{"text":"下10个(51-60)","color":"dark_red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"→","color":"black","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"开始","color":"gold","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function 封禁:6"}}]

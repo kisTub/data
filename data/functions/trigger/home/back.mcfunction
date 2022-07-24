@@ -1,6 +1,6 @@
-scoreboard players operation @s[tag=homeOwner] x_pos = @s homex
-scoreboard players operation @s[tag=homeOwner] y_pos = @s homey
-scoreboard players operation @s[tag=homeOwner] z_pos = @s homez
-function pos:lose/xyz if @s[tag=homeOwner]
-tellraw @s[tag=!homeOwner] ["§c您还未设置家"]
-tellraw @s[tag=homeOwner] ["§a成功返回家"]
+scoreboard players operation @s[tag=home_owner] x = @s homex
+scoreboard players operation @s[tag=home_owner] y = @s homey
+scoreboard players operation @s[tag=home_owner] z = @s homez
+function pos:lose/xyz if @s[tag=home_owner]
+tellraw @s[tag=!home_owner] ["§c您还未设置家"]
+tellraw @s[tag=home_owner] ["§a成功返回家"]

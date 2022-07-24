@@ -1,0 +1,1 @@
+give @s minecraft:spawn_egg 1 0 {id:"summon_egg",display:{Name:"§e温馨小家",Lore:["§7生成一个小房子"]},EntityTag:{CustomName:"§2§l建造中...",Tags:["set_house","summon_egg"],CustomNameVisible:1b,NoAI:1b,Invulnerable:1b,NoGravity:1b,id:"minecraft:silverfish"}}

@@ -1,10 +1,14 @@
-#计分板变量创建  
-scoreboard objectives add tpa_time dummy
-scoreboard objectives add player_choose trigger
-#时间每20gt递减一次
-scoreboard players remove @e[tag=cs,c=1,score_tpa_time_min=1] tpa_time 1
-#tpa模式检测  
-function tpa:reset if @e[c=1,tag=cs,score_tpa_time=0]
-function tpa:mode0 if @e[c=1,tag=cs,score_tpa_mode_min=0,score_tpa_mode=0] 
-function tpa:mode1 if @e[c=1,tag=cs,score_tpa_mode_min=1,score_tpa_mode=1] 
+execute @e[tag=主城] ~ ~ ~ function tpa:summon unless @e[tag=tpa_timer,r=6]
+scoreboard players remove @e[tag=tpa_timer] var 1
+execute @e[tag=tpa_timer,c=1,score_var=0] ~ ~ ~ function tpa:give_use_count
+scoreboard players remove @e[tag=tpa_timer,c=1,score_var_min=1]
 
+function tpa:working if @e[tag=主城,tag=working]
+
+function tpa:ready if @e[tag=主城,tag=ready]
+
+function tpa:dynamic_uid/spawn if @e[tag=主城,tag=spawn_dynamic_uid]
+
+function tpa:sender/wait if @e[tag=主城,tag=wait_sender]
+
+execute @p[tag=receiver] ~ ~ ~ function tpa:receiver/wait if @e[tag=主城,tag=wait_receiver]

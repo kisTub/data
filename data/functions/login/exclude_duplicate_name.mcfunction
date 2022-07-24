@@ -1,3 +1,4 @@
+scoreboard objectives add enter_sever dummy
 scoreboard players set @s enter_sever 10
 
 scoreboard players tag @s[score_enter_sever_min=10] add enter_sever

@@ -1,0 +1,1 @@
+give @s minecraft:spawn_egg 1 0 {id:"summon_egg",display:{Name:"§e吸尘器",Lore:["§7可以收集128格范围内的掉落物傲~"]},EntityTag:{CustomName:"§2§l↓掉落的物品↓",Tags:["clear_item","summon_egg"],CustomNameVisible:1b,NoAI:1b,Invulnerable:1b,NoGravity:1b,id:"minecraft:silverfish"}}

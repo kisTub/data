@@ -1,0 +1,12 @@
+function egg:mine_ore/item/0 if @s[tag=lv0]
+function egg:mine_ore/item/1 if @s[tag=lv1]
+function egg:mine_ore/item/2 if @s[tag=lv2]
+function egg:mine_ore/item/3 if @s[tag=lv3]
+function egg:mine_ore/item/4 if @s[tag=lv4]
+function egg:mine_ore/item/5 if @s[tag=lv5]
+function egg:mine_ore/item/6 if @s[tag=lv6]
+function egg:mine_ore/item/7 if @s[tag=lv7]
+function egg:mine_ore/item/8 if @s[tag=lv8]
+function egg:mine_ore/item/9 if @s[tag=lv9]
+function egg:mine_ore/item/10 if @s[tag=lv10]
+

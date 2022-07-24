@@ -1,0 +1,4 @@
+# 云端神殿副本怪物名称：云端之龙(蠢虫)掉落物掉落率皆为2%
+# 云端之龙掉落物：龙珠(粘液球)
+
+give @s minecraft:mob_spawner 1 0 {display:{Lore:["§a云端之龙刷怪箱"]},BlockEntityTag:{SpawnData:{Health:100,Attributes:[{Name:"generic.maxHealth",Base:100}],id:"minecraft:wither_skeleton",CustomName:"§a云端之龙",Tags:["yunduan_guard"],CustomNameVisible:1b,ArmorItems:[{},{},{id:"minecraft:slime_ball",Count:1b,Damage:0s,tag:{display:{Name:"§a龙珠"},Tags:["id:\\\"lbj:long_zhu\\\""],HideFlags:1,ench:[{id:0s,lvl:1s}]}},{}],ArmorDropChances:[0.0f,0.0f,0.03f,0.0f],id:"minecraft:silverfish"},SpawnPotentials:[{Weight:1,Entity:{CustomName:"§a云端之龙",Tags:["yunduan_guard"],CustomNameVisible:1b,ArmorItems:[{},{},{id:"minecraft:slime_ball",Count:1b,Damage:0s,tag:{display:{Name:"§a龙珠"},Tags:["id:\\\"lbj:long_zhu\\\""],HideFlags:1,ench:[{id:0s,lvl:1s}]}},{}],ArmorDropChances:[0.0f,0.0f,0.03f,0.0f],Health:100,Attributes:[{Name:"generic.maxHealth",Base:100}],id:"minecraft:silverfish"}}]}}

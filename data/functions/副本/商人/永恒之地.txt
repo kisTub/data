@@ -1,0 +1,445 @@
+{
+	CustomName: "§2永恒之地商人",
+	Tags: ["shoper"],
+	CustomNameVisible: 1 b,
+	Profession: 5,
+	Career: 0,
+	Offers: {
+		Recipes: [{
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:diamond",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§e永恒之心"
+					},
+					Tags: ["id:\\\"lbj:yongheng_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:wooden_sword",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 7,
+						UUIDLeast: -1934198891415774927 L,
+						UUIDMost: 2239868562367352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackDamage",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 0,
+						Amount: 1.6,
+						UUIDLeast: -1934198891415774927 L,
+						UUIDMost: 2239868562364352777 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1934198891415174977 L,
+						UUIDMost: 2239868562364357778 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1978719493217528376 L,
+						UUIDMost: 2417338872816312975 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§3青木剑"
+					},
+					Tags: ["id:\"lbj:qingmu_sword\""],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:diamond",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§e永恒之心"
+					},
+					Tags: ["id:\\\"lbj:yongheng_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:stone_sword",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 7,
+						UUIDLeast: -1934198771415174927 L,
+						UUIDMost: 2239868567774352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackDamage",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 0,
+						Amount: 1.6,
+						UUIDLeast: -1934197891775174927 L,
+						UUIDMost: 2239878562367352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1934198871477174927 L,
+						UUIDMost: 7739868562364352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1958717497217527396 L,
+						UUIDMost: 2417338732817712975 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§e沉沙剑",
+						Lore: ["§9给被击中敌人附加1秒缓慢"]
+					},
+					Tags: ["id:\"lbj:chensha_sword\""],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:diamond",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§e永恒之心"
+					},
+					Tags: ["id:\\\"lbj:yongheng_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:iron_sword",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 7,
+						UUIDLeast: -1934198891415174927 L,
+						UUIDMost: 2239768562374352777 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackDamage",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 0,
+						Amount: 1.6,
+						UUIDLeast: -17741987914157174927 L,
+						UUIDMost: 2237768562364752778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1934198891775174927 L,
+						UUIDMost: 2239868577364352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1958719493217577396 L,
+						UUIDMost: 2417738837716312975 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§8玄铁剑",
+						Lore: ["§9给击中敌人附加1秒中毒"]
+					},
+					Tags: ["id:\"lbj:xuantie_sword\""],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:diamond",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§e永恒之心"
+					},
+					Tags: ["id:\\\"lbj:yongheng_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 7,
+						UUIDLeast: -1934197897415174777 L,
+						UUIDMost: 2239868562377752778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackDamage",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 0,
+						Amount: 1.6,
+						UUIDLeast: -1934198891417774927 L,
+						UUIDMost: 2239868567774352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1934177791415174927 L,
+						UUIDMost: 2239868762367352777 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: -1977779793217528396 L,
+						UUIDMost: 2417338837816372975 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§6元阳剑",
+						Lore: [""]
+					},
+					Tags: ["id:\"lbj:yuanyang_sword\""],
+					Unbreakable: 1 b,
+					ench: [{
+						id: 16,
+						lvl: 10
+					}, {
+						id: 20,
+						lvl: 1
+					}]
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:diamond",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§e永恒之心"
+					},
+					Tags: ["id:\\\"lbj:yongheng_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_sword",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 7,
+						UUIDLeast: -1934198891415177777 L,
+						UUIDMost: 2239878762364352777 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackDamage",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 0,
+						Amount: 1.6,
+						UUIDLeast: -1934198891415774927 L,
+						UUIDMost: 2239868567364352778 L,
+						Slot: mainhand,
+						AttributeName: "generic.attackSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.15,
+						UUIDLeast: -1513476444251371598 L,
+						UUIDMost: 2519737262411996845 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.15,
+						UUIDLeast: 10673426760943642624 L,
+						UUIDMost: 18296316706794196992 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§6轩辕剑",
+						Lore: ["§9带有跳跃提升"]
+					},
+					Tags: ["xuanyuan_sword"],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:diamond",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§e永恒之心"
+					},
+					Tags: ["id:\\\"lbj:yongheng_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:shield",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:shield",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: 12328843331661660160 L,
+						UUIDMost: 7701386515096159232 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 0,
+						Amount: 4,
+						UUIDLeast: -1727987257251169312 L,
+						UUIDMost: 2312151474897116725 L,
+						Slot: offhand,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}, {
+						Operation: 1,
+						Amount: 0.05,
+						UUIDLeast: 13102601421696581632 L,
+						UUIDMost: 10914294179098740736 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§6圣骑士之盾",
+						Lore: ["§9放在副手时，生命上限+4"]
+					},
+					Tags: ["id:\"lbj:shengqishizhidun\""],
+					Unbreakable: 1 b,
+					Unbreakable: 1 b,
+					BlockEntityTag: {
+						Base: 14,
+						Patterns: [{
+							Pattern: cr,
+							Color: 11
+						}, {
+							Pattern: ss,
+							Color: 11
+						}]
+					}
+				}
+			}
+		}]
+	}
+}

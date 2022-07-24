@@ -1,0 +1,10 @@
+scoreboard players tag @s[type=area_effect_cloud] add #others
+scoreboard players tag @s[type=armor_stand] add #others
+scoreboard players tag @s[type=end_crystal] add #others
+scoreboard players tag @s[type=evoker_fangs] add #others
+scoreboard players tag @s[type=eye_of_ender] add #others
+scoreboard players tag @s[type=fishing_bobber] add #others
+scoreboard players tag @s[type=item_frame] add #others
+scoreboard players tag @s[type=leash_knot] add #others
+scoreboard players tag @s[type=lightning_bolt] add #others
+scoreboard players tag @s[type=painting] add #others

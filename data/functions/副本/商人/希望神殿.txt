@@ -1,0 +1,300 @@
+{
+	CustomName: "§6希望神殿商人",
+	Tags: ["希望神殿商人"],
+	Offers: {
+		Recipes: [{
+			uses: 0,
+			buy: {
+				id: "minecraft:ender_eye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§d末视之眼"
+					},
+					Tags: ["id:\\\"lbj:endless_eye\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_helmet",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_helmet",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 3,
+						UUIDLeast: -1745536235711499361 L,
+						UUIDMost: 2135827297559789321 L,
+						Slot: head,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157274341 L,
+						UUIDMost: 2356565369298761911 L,
+						Slot: head,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					},{
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1448691984666816321 L,
+						UUIDMost: 2281895219437293691 L,
+						Slot: head,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§d末视者头盔"
+					},
+					Tags: ["moshizhe_helmet"],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			uses: 0,
+			buy: {
+				id: "minecraft:ender_eye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§d末视之眼"
+					},
+					Tags: ["id:\\\"lbj:endless_eye\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_chestplate",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_chestplate",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 8,
+						UUIDLeast: -1745536235711499323 L,
+						UUIDMost: 2135827297559789325 L,
+						Slot: chest,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157274329 L,
+						UUIDMost: 2356565369298761922 L,
+						Slot: chest,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 4,
+						UUIDLeast: -1281638844761973226 L,
+						UUIDMost: 2684345926276267725 L,
+						Slot: chest,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§d末视者胸甲"
+					},
+					Tags: ["moshizhe_chestplate"],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			uses: 0,
+			buy: {
+				id: "minecraft:ender_eye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§d末视之眼"
+					},
+					Tags: ["id:\\\"lbj:endless_eye\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_leggings",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_leggings",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 6,
+						UUIDLeast: -1745536235711499333 L,
+						UUIDMost: 2135827297559789324 L,
+						Slot: legs,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157274344 L,
+						UUIDMost: 2356565369298761914 L,
+						Slot: legs,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1463457342556563292 L,
+						UUIDMost: 2645315385133344599 L,
+						Slot: legs,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§d末视者护腿"
+					},
+					Tags: ["moshizhe_leggings"],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			uses: 0,
+			buy: {
+				id: "minecraft:ender_eye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§d末视之眼"
+					},
+					Tags: ["id:\\\"lbj:endless_eye\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_boots",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_boots",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 3,
+						UUIDLeast: -1745536235711499369 L,
+						UUIDMost: 2135827297559789320 L,
+						Slot: feet,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157279399 L,
+						UUIDMost: 2356569369298761912 L,
+						Slot: feet,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1798322837751432599 L,
+						UUIDMost: 9647329644479881162 L,
+						Slot: feet,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§d末视者之靴"
+					},
+					Tags: ["moshizhe_boots"],
+					Unbreakable: 1 b
+				}
+			}
+		}, {
+			uses: 0,
+			buy: {
+				id: "minecraft:ender_eye",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§d末视之眼"
+					},
+					Tags: ["id:\\\"lbj:endless_eye\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:ender_eye",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:magma_cream",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 1,
+						Amount: 0.15,
+						UUIDLeast: -1593554118538939728 L,
+						UUIDMost: 2752835989496398989 L,
+						Slot: offhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}, {
+						Operation: 1,
+						Amount: 0.15,
+						UUIDLeast: -1593554118598831728 L,
+						UUIDMost: 2752895989496390989 L,
+						Slot: mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§d穷视之眼",
+						Lore: ["§9放在副手时，玩家获得夜视，抗性效果"]
+					},
+					Tags: ["end_eye"]
+				}
+			}
+		}]
+	}
+}
+

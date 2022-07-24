@@ -1,0 +1,4 @@
+# 沙漠神殿副本怪物名称：遗迹守卫(尸壳)掉落物掉落率皆为2%
+# 遗迹守卫掉落物：遗迹之踪(火药)
+
+give @s minecraft:mob_spawner 1 0 {display:{Lore:["§6遗迹守卫刷怪箱"]},BlockEntityTag:{SpawnData:{Health:100,Attributes:[{Name:"generic.maxHealth",Base:100}],id:"minecraft:wither_skeleton",CustomName:"§6遗迹守卫",Tags:["yiji_guard"],CustomNameVisible:1b,ArmorItems:[{},{},{id:"minecraft:gunpowder",Count:1b,Damage:0s,tag:{display:{Name:"§6遗迹之踪"},Tags:["id:\\\"lbj:yijizhizong\\\""],HideFlags:1,ench:[{id:0s,lvl:1s}]}},{}],ArmorDropChances:[0.0f,0.0f,0.03f,0.0f],id:"minecraft:husk"},SpawnPotentials:[{Weight:1,Entity:{CustomName:"§6遗迹守卫",Tags:["yiji_guard"],CustomNameVisible:1b,ArmorItems:[{},{},{id:"minecraft:gunpowder",Count:1b,Damage:0s,tag:{display:{Name:"§6遗迹之踪"},Tags:["id:\\\"lbj:yijizhizong\\\""],HideFlags:1,ench:[{id:0s,lvl:1s}]}},{}],ArmorDropChances:[0.0f,0.0f,0.02f,0.0f],Health:100,Attributes:[{Name:"generic.maxHealth",Base:100}],id:"minecraft:husk"}}]}}

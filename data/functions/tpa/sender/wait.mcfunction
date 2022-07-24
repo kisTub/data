@@ -1,0 +1,1 @@
+function tpa:if_receiver if @p[tag=sender,score_tpa_trigger_min=1]

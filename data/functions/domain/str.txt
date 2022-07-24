@@ -1,0 +1,19 @@
+function domain:tick
+{
+	exe@a[
+		if (domain_var >= 1) 
+			function domain:visitor/enter
+		if (domain_var <= 0,tag=domain_visitor)
+			function domain:visitor/leave
+	] 
+}
+
+function domain:tick20
+{
+	exe@a[
+		if (tag=domain_back_temp)
+			function domain:§private/back/temp
+		if (tag=domain_create_temp)
+			function domain:§private/create/temp
+	]
+}

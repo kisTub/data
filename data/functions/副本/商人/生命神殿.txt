@@ -1,0 +1,337 @@
+{
+	CustomName: "§c生命神殿商人",
+	Tags: ["生命神殿商人"],
+	CustomNameVisible: 1 b,
+	Profession: 5,
+	Career: 0,
+	Offers: {
+		Recipes: [{
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:dye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§c死神之心"
+					},
+					Tags: ["id:\\\"lbj:sishen_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_helmet",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_helmet",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 3,
+						UUIDLeast: -1745536235711469363 L,
+						UUIDMost: 2135827267559789325 L,
+						Slot: head,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157276349 L,
+						UUIDMost: 2356566369298761912 L,
+						Slot: head,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1551198687863995469 L,
+						UUIDMost: 2141455911731965643 L,
+						AttributeName: "generic.maxHealth",
+						Slot: head,
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§c死神头盔",
+						Lore: ["§9生命上限+2"]
+					},
+					Tags: ["id:\"lbj:sishen_toukui\""],
+					Unbreakable: 1 b,
+					BlockEntityTag: {
+						Base: 14
+					}
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:dye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§c死神之心"
+					},
+					Tags: ["id:\\\"lbj:sishen_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_chestplate",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_chestplate",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 8,
+						UUIDLeast: -1746536235711499363 L,
+						UUIDMost: 2635827297559789325 L,
+						Slot: chest,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -6971233727157274349 L,
+						UUIDMost: 2356566369296761912 L,
+						Slot: chest,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 4,
+						UUIDLeast: -1551198687863996456 L,
+						UUIDMost: 2146455911731935643 L,
+						Slot: chest,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§c死神胸甲",
+						Lore: ["§9生命上限+4"]
+					},
+					Tags: ["id:\"lbj:sishen_xiongjia\""],
+					Unbreakable: 1 b,
+					BlockEntityTag: {
+						Base: 14
+					}
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:dye",
+				Count: 32 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§c死神之心"
+					},
+					Tags: ["id:\\\"lbj:sishen_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_leggings",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_leggings",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 6,
+						UUIDLeast: -1745536265711499363 L,
+						UUIDMost: 2135827296559789325 L,
+						Slot: legs,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157264349 L,
+						UUIDMost: 2356565369296661912 L,
+						Slot: legs,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1551198687863995466 L,
+						UUIDMost: 2141455911731935666 L,
+						Slot: legs,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§c死神护腿",
+						Lore: ["§9生命上限+2"]
+					},
+					Tags: ["id:\"lbj:sishen_hutui\""],
+					Unbreakable: 1 b,
+					BlockEntityTag: {
+						Base: 14
+					}
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:dye",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§c死神之心"
+					},
+					Tags: ["id:\\\"lbj:sishen_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_boots",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_boots",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 3,
+						UUIDLeast: -1745566235711496363 L,
+						UUIDMost: 21358667297559789325 L,
+						Slot: feet,
+						AttributeName: "generic.armor",
+						Name: "generic.armor"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1971233727157276346 L,
+						UUIDMost: 2356665669298761612 L,
+						Slot: feet,
+						AttributeName: "generic.armorToughness",
+						Name: "generic.armorToughness"
+					}, {
+						Operation: 0,
+						Amount: 2,
+						UUIDLeast: -1551198687863995469 L,
+						UUIDMost: 2141455911731935663 L,
+						Slot: feet,
+						AttributeName: "generic.maxHealth",
+						Name: "generic.maxHealth"
+					}],
+					display: {
+						Name: "§c死神之靴",
+						Lore: ["§9生命上限+2"]
+					},
+					Tags: ["id:\"lbj:sishen_zhixue\""],
+					Unbreakable: 1 b,
+					BlockEntityTag: {
+						Base: 14
+					}
+				}
+			}
+		}, {
+			maxUses: 99999999,
+			uses: 0,
+			max: null,
+			buy: {
+				id: "minecraft:dye",
+				Count: 64 b,
+				Damage: 0 s,
+				tag: {
+					display: {
+						Name: "§c死神之心"
+					},
+					Tags: ["id:\\\"lbj:sishen_heart\\\""],
+					HideFlags: 1,
+					ench: [{
+						id: 0 s,
+						lvl: 1 s
+					}]
+				}
+			},
+			buyB: {
+				id: "minecraft:diamond_shovel",
+				Count: 1 b,
+				Damage: 0 s
+			},
+			sell: {
+				id: "minecraft:diamond_hoe",
+				Count: 1 b,
+				Damage: 0 s,
+				tag: {
+					AttributeModifiers: [{
+						Operation: 0,
+						Amount: 8.0,
+						UUIDLeast: -1966677193256666626 L,
+						UUIDMost: 2549327369296223666 L,
+						Slot:mainhand,
+						AttributeName: "generic.attackDamage",
+						Name: "generic.attackDamage"
+					}, {
+						Operation: 1,
+						Amount: 0.1,
+						UUIDLeast: -1372342488294668965 L,
+						UUIDMost: 2434714635468813863 L,
+						Slot:mainhand,
+						AttributeName: "generic.movementSpeed",
+						Name: "generic.movementSpeed"
+					}],
+					display: {
+						Name: "§c死神镰刀",
+						Lore: ["§9移速加成10%"]
+					},
+					Tags: ["id:\"lbj:sishen_liandao\""],
+					Unbreakable: 1 b,
+					HideFlags: 0,
+					ench: [{
+						id: 17 s,
+						lvl: 4 s
+					}],
+					BlockEntityTag: {
+						Base: 14
+					}
+				}
+			}
+		}]
+	}
+}
