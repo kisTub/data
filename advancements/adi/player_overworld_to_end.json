@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "adi_overworld_to_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_end"
+            }
+        }
+    },
+    "rewards": {
+        "function": "adi:player/to_end"
+    }
+}

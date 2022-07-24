@@ -1,0 +1,1 @@
+{"criteria": {"player_first_login": {"trigger": "minecraft:tick"}},"rewards": {"function":"login:first"}}

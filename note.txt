@@ -1,2 +1,0 @@
-进度判据minecraft:item_durability_changed和物品耐久有关，玩家丢出雪球不是此判据成立的条件。
-进度判据consume_item和“吃”相联系，无法检测因为丢雪球引发的消耗

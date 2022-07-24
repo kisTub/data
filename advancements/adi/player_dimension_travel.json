@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "adi_overworld_to_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        },
+        "adi_end_to_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "the_end",
+                "to": "the_nether"
+            }
+        }
+    
+    },
+    "requirements": [
+        ["adi_overworld_to_nether"],
+        ["adi_end_to_nether"]
+    ],
+    "rewards": {
+        "function": "adi:player/dimension_travel"
+    }
+}
