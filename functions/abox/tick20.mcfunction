@@ -1,0 +1,1 @@
+#scoreboard players remove @a[score_abox_on_air_min=1] abox_on_air 19

@@ -1,1 +1,1 @@
-gamemode survival @s
+function _ADM:setting/gamemode_survival

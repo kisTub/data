@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "adi_end_to_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "the_end",
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "_ADM:player/end_to_nether"
+    }
+}

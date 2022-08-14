@@ -1,0 +1,1 @@
+function time:get/gametime

@@ -1,2 +1,2 @@
-# 对主城的所有玩家添加药水效果
-execute @a[r=300,tag=!op] ~ ~ ~ function app:player_effect
+execute @e[tag=app,c=1] ~ ~ ~ function app:tick20_area unless @s[tag=use_adm]
+function _ADM:setting/app_tick20 if @s[tag=use_adm]

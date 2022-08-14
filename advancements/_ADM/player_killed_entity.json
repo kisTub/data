@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "adi_player_killed_entity": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "damage": {
+            "blocked": true
+          }
+        }
+    }
+    },
+    "rewards":{
+        "function":"_ADM:player/killed_entity"
+    }
+}

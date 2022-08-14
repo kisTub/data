@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "adi_player_hurt_entity": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          
+        }
+    }
+    },
+    "rewards":{
+        "function":"_ADM:player/hurt_entity"
+    }
+}

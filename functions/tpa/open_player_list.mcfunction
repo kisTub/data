@@ -1,6 +1,6 @@
 
 
-scoreboard players tag @e[tag=主城,c=1] add wait_sender
+scoreboard players tag @e[tag=app,c=1] add wait_sender
 scoreboard players set @s[tag=sender] tpa_trigger 0
 
 execute @p[tag=!sender,score_dynamic_uid_min=0,score_dynamic_uid=0] ~ ~ ~ tellraw @p[tag=sender] [{"text":""},{"selector":"@p[tag=!sender,score_dynamic_uid_min=0,score_dynamic_uid=0]","color":"aqua"},{"text":"[点击发送申请]","clickEvent":{"action":"run_command","value":"/trigger tpa_trigger set 0"},"color":"yellow"}]

@@ -1,0 +1,1 @@
+execute @a[r=900] ~ ~ ~ function app:tick20_area/player

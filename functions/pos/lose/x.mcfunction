@@ -1,1 +1,1 @@
-function pos:§private/get/x
+function pos:§private/lose/x

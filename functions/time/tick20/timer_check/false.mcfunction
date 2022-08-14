@@ -1,0 +1,2 @@
+execute @e[tag=app,c=1] ~ ~ ~ summon area_effect_cloud ~ ~ ~ {Tags:["time_timer"],CustomName:"§atimeTimer",Duration:1000000000}
+#scoreboard players operation @e[tag=time_timer,c=1] var = #time_time var

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "adi_overworld_to_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "_ADM:player/overworld_to_nether"
+    }
+}

@@ -1,0 +1,1 @@
+tellraw @s ["§cexception.ill_target"]

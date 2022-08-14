@@ -1,6 +1,2 @@
-
-# 对主城的非玩家实体进行操作
-execute @e[tag=主城,c=1] ~ ~ ~ execute @e[type=!player,r=300] ~ ~ ~ function app:mob
-
-# 对主城玩家改变模式
-execute @e[tag=主城,c=1] ~ ~ ~ execute @a[tag=!op,r=300] ~ ~ ~ scoreboard players set @s gamemode 2
+execute @e[tag=app,c=1] ~ ~ ~ function app:tick_area unless @s[tag=use_adm]
+function _ADM:setting/app_tick if @s[tag=use_adm]

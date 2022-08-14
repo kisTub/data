@@ -1,3 +1,1 @@
-tellraw @s ["§a已设置重生点"]
-
-spawnpoint @s ~ ~ ~
+function _ADM:setting/set_spawnpoint

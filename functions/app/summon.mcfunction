@@ -1,2 +1,1 @@
-kill @e[tag=主城]
-summon minecraft:armor_stand ~ ~1 ~ {Marker:true,Tags:["主城"],CustomName:"§6主城",CustomNameVisible:1b,NoAI:1b,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,NoGravity:1b,Invisible:1,ShowArms:1,DisabledSlots:2039583,Rotation:[0f],Pose:{Head:[0f,0f,0f],Body:[0f,0f,0f],LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f]}}
+function _ADM:setting/app_position

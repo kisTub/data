@@ -1,1 +1,1 @@
-execute @a[tag=login_animate] ~ ~ ~ function login:private/animate
+execute @a[tag=login_animate] ~ ~ ~ function login:tick/animate

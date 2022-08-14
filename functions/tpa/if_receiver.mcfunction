@@ -1,4 +1,4 @@
-scoreboard players tag @e[tag=主城,c=1] remove wait_sender
+scoreboard players tag @e[tag=app,c=1] remove wait_sender
 
 execute @a[tag=!sender] ~ ~ ~ scoreboard players operation @s tpa_temp = @s dynamic_uid
 execute @a[tag=!sender] ~ ~ ~ scoreboard players operation @s tpa_temp -= @p[tag=sender] tpa_trigger

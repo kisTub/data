@@ -1,0 +1,1 @@
+tellraw @a [{"text":"§d离清理掉落物还有"},{"score":{"objective":"clear_time","name":"@e[tag=app,c=1]"},"color":"yellow"},{"text":"§d秒"}]

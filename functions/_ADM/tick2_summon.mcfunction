@@ -1,0 +1,1 @@
+execute @e[tag=app,c=1] ~ ~ ~ summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["tick2_timer"]}

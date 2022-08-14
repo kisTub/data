@@ -1,10 +1,6 @@
 title @s title [{"text":"正在创建领地中...","color":"green"}]
 tellraw @s [{"text":"当前正在创建领地中，请耐心等待，不要移动","color":"yellow"}]
 # 计分板
-scoreboard objectives remove domain_uid dummy
-scoreboard objectives remove domain_var dummy
-scoreboard objectives remove var dummy
-scoreboard objectives remove temp dummy
 scoreboard objectives add domain_uid dummy
 scoreboard objectives add domain_var dummy
 scoreboard objectives add var dummy
