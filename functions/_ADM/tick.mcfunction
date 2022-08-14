@@ -53,3 +53,7 @@ scoreboard objectives add delyTick dummy
 
 scoreboard players add @e[tag=dely_1t.kill] delyTick 1
 kill @e[tag=dely_1t.kill,score_delyTick_min=2]
+# 只读变量实现
+execute @a[tag=!read.scoreboard.disable] ~ ~ ~ function _ADM:read/enable
+# 命令方块链接禁用实现
+function _ADM:cb_link/disable unless @e[tag=cb_link.enable]
