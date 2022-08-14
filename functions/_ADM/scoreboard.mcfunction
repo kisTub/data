@@ -27,6 +27,8 @@ scoreboard objectives add enter_sever dummy
 scoreboard objectives add login_frame dummy
 # 死亡次数
 scoreboard objectives add death_count deathCount
+scoreboard objectives add §deathCount deathCount
+scoreboard objectives add .deathCount deathCount
 # 记录坐标
 scoreboard objectives add pos_record_x dummy
 scoreboard objectives add pos_record_y dummy
@@ -191,4 +193,5 @@ scoreboard objectives add contHurtCount dummy
 #
 
 # 维度
+scoreboard objectives add §dimension dummy
 socreboard objectives add .dimension dummy
