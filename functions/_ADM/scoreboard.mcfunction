@@ -188,3 +188,7 @@ scoreboard objectives add §manorOrigin40 dummy
 
 # 连续攻击次数
 scoreboard objectives add contHurtCount dummy
+#
+
+# 维度
+socreboard objectives add .dimension dummy

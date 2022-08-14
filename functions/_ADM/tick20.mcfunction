@@ -34,3 +34,7 @@ execute @a[tag=to_nether] ~ ~ ~ function abox:clear/nether_door
 #function restart:tick20
 # 使用萝卜钓竿
 execute @a[score_useCos_min=1] ~ ~ ~ function _ADM:player/use/carrot_on_a_stick
+# 维度分数实现
+scoreboard players set @a .dimension 1 {Dimension:1}
+scoreboard players set @a .dimension -1 {Dimension:-1}
+scoreboard players set @a .dimension 0 {Dimension:0}
