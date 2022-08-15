@@ -25,4 +25,9 @@ execute @s[tag=!read.scoreboard.disable] ~ ~ ~ function _ADM:read/enable
 function _ADM:cb_link/disable unless @e[tag=cb_link.enable]
 # 红石权限
 #function 
+# 只读变量实现
+scoreboard players set @s .dimension 1 {Dimension:1}
+scoreboard players set @s .dimension -1 {Dimension:-1}
+scoreboard players set @s .dimension 0 {Dimension:0}
 
+scoreboard players operation @s .deathCount = @s §deathCount
