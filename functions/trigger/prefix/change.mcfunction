@@ -1,6 +1,6 @@
 scoreboard teams leave @s
 
-function _ADM:setting/prefix_join
+function _ADM:player/change_prefix
 
 tellraw @s ["§a称号已更新"]
 
