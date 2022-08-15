@@ -1,0 +1,1 @@
+function trigger:help/1 if @s[score_help_min=1,score_help=1]
