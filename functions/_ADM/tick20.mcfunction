@@ -3,7 +3,6 @@
 
 scoreboard players set @e[tag=app] var 0
 
-
 # 床
 #execute @a[score_bedSleep_min=1] ~ ~ ~ function domain:create
 
