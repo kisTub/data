@@ -11,7 +11,7 @@ effect @s minecraft:levitation 0 0
 
 function item:menu_opener
 
-function sign_in:go
+function _ADM:player/sign_in
 
 particle cloud ~ ~0.5 ~ 0.1 0.1 0.1 0.1 100
 
