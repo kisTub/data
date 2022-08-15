@@ -33,3 +33,6 @@ scoreboard objectives add delyTick dummy
 
 scoreboard players add @e[tag=dely_1t.kill] delyTick 1
 kill @e[tag=dely_1t.kill,score_delyTick_min=2]
+
+# 高频调用player对象，实现对玩家的操作
+execute @a ~ ~ ~ function _ADM:object/player

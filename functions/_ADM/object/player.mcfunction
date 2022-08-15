@@ -23,4 +23,6 @@ scoreboard players tag @s[tag=!fly_ing] remove fly.use
 execute @s[tag=!read.scoreboard.disable] ~ ~ ~ function _ADM:read/enable
 # 命令方块链接禁用实现
 function _ADM:cb_link/disable unless @e[tag=cb_link.enable]
+# 红石权限
+#function 
 

@@ -1,4 +1,3 @@
-execute @a ~ ~ ~ function time:tick20/player
 function time:tick20/timer_check if @e[tag=app]
 
 
