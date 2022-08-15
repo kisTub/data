@@ -1,1 +1,0 @@
-execute @a[tag=login_animate] ~ ~ ~ function login:tick/animate

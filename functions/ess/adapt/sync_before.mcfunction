@@ -1,1 +1,1 @@
-scoreboard players operation @s money = @s <aother_scoreboard_name>
+scoreboard players operation @s money = @s <another_scoreboard_name>
