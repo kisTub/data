@@ -31,7 +31,7 @@ function _ADM:player/gamemode_survival if @s[score_cd_min=7,score_cd=7]
 # 帮助
 function _ADM:player/open_help_infor if @s[score_help_min=1]
 # 玩家信息
-function _ADM:player/infor if @s[score_cd_min=13,score_cd=13]
+function _ADM:player/view_infor if @s[score_cd_min=13,score_cd=13]
 
 #重设触发器值
 function trigger:tick20/post/set_0
